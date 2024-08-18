@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ancient_debris"
+    },
+    "title": "One Man's Trash",
+    "description": "Let a Sniffer dig up ancient debris"
+  },
+  "parent": "sbp:nether/smells_like_home",
+  "criteria": {
+    "get_ancient_debris": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:ancient_debris"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_ancient_debris"
+    ]
+  ]
+}

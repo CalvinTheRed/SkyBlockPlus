@@ -1,0 +1,36 @@
+{
+  "criteria": {
+    "in_end": {
+			"trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "dimension": "minecraft:the_end"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "minecraft:textures/block/purple_terracotta.png",
+    "description": "Yeah, you should have seen this coming",
+    "icon": {
+      "id": "minecraft:end_stone"
+    },
+    "show_toast": false,
+    "title": "The End"
+  },
+  "requirements": [
+    [
+      "in_end"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

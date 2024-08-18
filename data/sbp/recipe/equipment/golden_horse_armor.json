@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "minecraft:gold_ingot"
+  },
+  "base": {
+    "item": "minecraft:leather_horse_armor"
+  },
+  "addition": {
+    "item": "minecraft:gold_ingot"
+  },
+  "result": {
+    "id": "minecraft:golden_horse_armor",
+    "count": 1
+  }
+}

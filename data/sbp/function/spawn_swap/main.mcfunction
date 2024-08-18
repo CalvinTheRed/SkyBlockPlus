@@ -1,0 +1,1 @@
+execute as @e[type=minecraft:spider,tag=!not_cave_spider] at @s run function sbp:spawn_swap/cave_spider/try

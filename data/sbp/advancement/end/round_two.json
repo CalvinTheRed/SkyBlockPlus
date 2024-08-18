@@ -1,0 +1,33 @@
+{
+  "parent": "sbp:end/is_this_edible",
+  "criteria": {
+    "summoned_dragon": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:ender_dragon"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:summoned_entity"
+    }
+  },
+  "display": {
+    "description": "Re-spawn the Ender Dragon",
+    "frame": "goal",
+    "icon": {
+      "id": "minecraft:end_crystal"
+    },
+    "title": "Round Two"
+  },
+  "requirements": [
+    [
+      "summoned_dragon"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

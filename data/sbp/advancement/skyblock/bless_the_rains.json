@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:water_bucket"
+    },
+    "title": "Bless The Rains",
+    "description": "Collect water from a cauldron"
+  },
+  "parent": "sbp:skyblock/ooh_shiny",
+  "criteria": {
+    "get_water": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:water_bucket"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_water"
+    ]
+  ]
+}

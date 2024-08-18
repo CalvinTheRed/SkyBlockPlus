@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_sapling"
+    },
+    "title": "It's Oakay Now",
+    "description": "Buy some oak saplings from a Wandering Trader"
+  },
+  "parent": "sbp:skyblock/green_deal",
+  "criteria": {
+    "get_oak_sapling": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:oak_sapling"
+          }
+        ]
+      }
+    },
+		"get_dark_oak_sapling": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:dark_oak_sapling"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_oak_sapling",
+			"get_dark_oak_sapling"
+    ]
+  ]
+}

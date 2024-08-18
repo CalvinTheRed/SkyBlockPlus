@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:warped_nylium"
+    },
+    "title": "Warped Personality",
+    "description": "Craft a block of warped nylium"
+  },
+  "parent": "sbp:nether/kill_it_with_fire",
+  "criteria": {
+    "get_warped_nylium": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:warped_nylium"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_warped_nylium"
+    ]
+  ]
+}

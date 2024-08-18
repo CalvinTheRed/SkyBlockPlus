@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:netherrack"
+    },
+    "title": "Kill It With Fire!",
+    "description": "Kill a Silverfish with fire and acquire netherrack"
+  },
+  "parent": "sbp:nether/that_cant_taste_good",
+  "criteria": {
+    "get_netherrack": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherrack"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_netherrack"
+    ]
+  ]
+}

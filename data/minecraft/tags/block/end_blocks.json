@@ -1,0 +1,15 @@
+{
+  "values": [
+		"#minecraft:mineable/axe",
+    "minecraft:end_stone",
+		"minecraft:end_stone_bricks",
+		"minecraft:purpur_block",
+		"minecraft:purpur_pillar",
+		"minecraft:purpur_stairs",
+		"minecraft:purpur_slab",
+		"minecraft:brewing_stand",
+		"minecraft:magenta_stained_glass",
+		"minecraft:end_rod",
+		"minecraft:dragon_wall_head"
+  ]
+}

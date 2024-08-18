@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:wet_sponge"
+    },
+    "title": "Promotion",
+    "description": "Strike a Guardian with lightning"
+  },
+  "parent": "sbp:skyblock/this_metal_sparks",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "impossible"
+    ]
+  ]
+}

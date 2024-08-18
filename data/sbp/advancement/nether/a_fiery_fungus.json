@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:crimson_nylium"
+    },
+    "title": "A Fiery Fungus",
+    "description": "Craft a block of crimson nylium"
+  },
+  "parent": "sbp:nether/kill_it_with_fire",
+  "criteria": {
+    "get_crimson_nylium": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:crimson_nylium"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_crimson_nylium"
+    ]
+  ]
+}

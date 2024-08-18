@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:wooden_sword"
+    },
+    "title": "Vanquisher",
+    "description": "Kill something"
+  },
+  "parent": "sbp:skyblock/root",
+  "criteria": {
+    "kill_something": {
+      "trigger": "minecraft:player_killed_entity"
+    }
+  },
+  "requirements": [
+    [
+      "kill_something"
+    ]
+  ]
+}

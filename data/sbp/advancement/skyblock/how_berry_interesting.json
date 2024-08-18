@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sweet_berries"
+    },
+    "title": "How Berry Interesting!",
+    "description": "Get both berry variants from the Wandering Trader"
+  },
+  "parent": "sbp:skyblock/green_deal",
+  "criteria": {
+    "get_sweet_berries": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:sweet_berries"
+          }
+        ]
+      }
+    },
+		"get_glow_berries": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:glow_berries"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+		["get_sweet_berries"],
+		["get_glow_berries"]
+  ]
+}

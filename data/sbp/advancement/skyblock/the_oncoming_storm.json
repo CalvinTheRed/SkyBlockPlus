@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:heavy_core"
+    },
+    "title": "The Oncoming Storm",
+    "description": "Slay a Breeze during a storm and acquire a heavy core"
+  },
+  "parent": "sbp:skyblock/mind_blowing",
+  "criteria": {
+    "get_heavy_core": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:heavy_core"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_heavy_core"
+    ]
+  ]
+}

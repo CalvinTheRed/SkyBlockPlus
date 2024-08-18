@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:mycelium"
+    },
+    "title": "That's MY Celium!",
+    "description": "craft some mycelium"
+  },
+  "parent": "sbp:skyblock/uprooted",
+  "criteria": {
+    "get_mycelium": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:mycelium"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_mycelium"
+    ]
+  ]
+}

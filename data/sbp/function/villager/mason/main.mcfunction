@@ -1,0 +1,1 @@
+execute as @s[tag=!processed_expert] if data entity @s {VillagerData:{level:4}} run function sbp:villager/mason/process_expert

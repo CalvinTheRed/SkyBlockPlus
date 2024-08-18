@@ -1,0 +1,37 @@
+{
+  "criteria": {
+    "in_nether": {
+			"trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "dimension": "minecraft:the_nether"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+	"parent": "sbp:skyblock/hot_hot",
+  "display": {
+    "announce_to_chat": true,
+    "description": "Light and enter a nether portal",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:obsidian"
+    },
+    "show_toast": false,
+    "title": "Escape The Void"
+  },
+  "requirements": [
+    [
+      "in_nether"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

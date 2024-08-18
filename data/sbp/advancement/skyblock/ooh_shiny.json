@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_ingot"
+    },
+    "title": "Ooh, Shiny!",
+    "description": "Get iron from a zombie"
+  },
+  "parent": "sbp:skyblock/vanquisher",
+  "criteria": {
+    "get_iron": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_ingot"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_iron"
+    ]
+  ]
+}

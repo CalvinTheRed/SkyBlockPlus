@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:gold_nugget"
+    },
+    "title": "A Necessary Sacrifice",
+    "description": "Strike a Pig with lightning... then kill it"
+  },
+  "parent": "sbp:skyblock/this_metal_sparks",
+  "criteria": {
+    "get_gold": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:gold_nugget"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_gold"
+    ]
+  ]
+}

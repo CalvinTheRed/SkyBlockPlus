@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:dragon_egg"
+    },
+    "title": "Is This Edible?",
+    "description": "Slay the Ender Dragon and collect its egg"
+  },
+  "parent": "sbp:end/root",
+  "criteria": {
+    "get_dragon_egg": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:dragon_egg"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_dragon_egg"
+    ]
+  ]
+}

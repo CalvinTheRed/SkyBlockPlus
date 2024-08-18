@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:acacia_sapling"
+    },
+    "title": "Treemendous",
+    "description": "Plant a sapling"
+  },
+  "parent": "sbp:skyblock/step_one",
+  "criteria": {
+    "plant_sapling": {
+      "conditions": {
+        "location": [
+          {
+            "block": "minecraft:acacia_sapling",
+            "condition": "minecraft:block_state_property"
+          }
+        ]
+      },
+      "trigger": "minecraft:placed_block"
+    }
+  },
+  "requirements": [
+    [
+      "plant_sapling"
+    ]
+  ]
+}

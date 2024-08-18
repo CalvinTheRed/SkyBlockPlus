@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ender_eye"
+    },
+    "title": "Following The Leader",
+    "description": "Chase an ender eye towards an end portal"
+  },
+  "parent": "sbp:nether/fire_fighter",
+  "criteria": {
+    "throws_ender_eye": {
+      "trigger": "minecraft:used_ender_eye"
+    }
+  },
+  "requirements": [
+    [
+      "throws_ender_eye"
+    ]
+  ]
+}

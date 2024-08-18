@@ -1,0 +1,1 @@
+execute as @e[type=minecraft:villager] at @s run function sbp:villager/check_employment

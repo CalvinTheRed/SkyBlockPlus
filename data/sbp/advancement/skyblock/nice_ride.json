@@ -1,0 +1,58 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_horse_armor"
+    },
+    "title": "Nice Ride",
+    "description": "Get all types of horse armor"
+  },
+  "parent": "sbp:skyblock/ooh_shiny",
+  "criteria": {
+    "get_leather_horse_armor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:leather_horse_armor"
+          }
+        ]
+      }
+    },
+		"get_golden_horse_armor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_horse_armor"
+          }
+        ]
+      }
+    },
+		"get_iron_horse_armor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_horse_armor"
+          }
+        ]
+      }
+    },
+		"get_diamond_horse_armor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:diamond_horse_armor"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+		["get_leather_horse_armor"],
+		["get_golden_horse_armor"],
+		["get_iron_horse_armor"],
+		["get_diamond_horse_armor"]
+  ]
+}

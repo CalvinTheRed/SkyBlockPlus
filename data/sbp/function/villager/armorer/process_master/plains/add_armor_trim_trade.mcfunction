@@ -1,0 +1,4 @@
+execute unless biome ~ ~ ~ #minecraft:is_end unless biome ~ ~ ~ #minecraft:is_nether unless biome ~ ~ ~ #sbp:is_windswept run data modify entity @s Offers.Recipes append value {maxUses:1,sell:{count:1,id:"minecraft:sentry_armor_trim_smithing_template"},buy:{count:1,id:"minecraft:cobblestone"},buyB:{count:7,id:"minecraft:diamond"},xp:30}
+execute if biome ~ ~ ~ #minecraft:is_end run function sbp:villager/armorer/process_master/end/add_armor_trim_trade
+execute if biome ~ ~ ~ #minecraft:is_nether run function sbp:villager/armorer/process_master/nether/add_armor_trim_trade
+execute if biome ~ ~ ~ #sbp:is_windswept run function sbp:villager/armorer/process_master/windswept/add_armor_trim_trade

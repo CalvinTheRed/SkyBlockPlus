@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond"
+    },
+    "title": "Let It Cook",
+    "description": "Cook a coal block in a blast furnace... for a long time"
+  },
+  "parent": "sbp:nether/not_coal_bro",
+  "criteria": {
+    "get_diamond": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:diamond"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_diamond"
+    ]
+  ]
+}

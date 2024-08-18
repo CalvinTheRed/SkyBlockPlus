@@ -1,0 +1,1 @@
+execute as @e[type=minecraft:wandering_trader,tag=!processed] at @s run function sbp:wandering_trader/process

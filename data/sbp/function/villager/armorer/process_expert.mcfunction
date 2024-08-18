@@ -1,0 +1,10 @@
+execute if biome ~ ~ ~ #sbp:villager_desert_biomes run function sbp:villager/armorer/process_expert/desert
+execute if biome ~ ~ ~ #sbp:villager_deep_dark_biomes run function sbp:villager/armorer/process_expert/deep_dark
+execute if biome ~ ~ ~ #sbp:villager_forest_biomes run function sbp:villager/armorer/process_expert/forest
+execute if biome ~ ~ ~ #sbp:villager_jungle_biomes run function sbp:villager/armorer/process_expert/jungle
+execute if biome ~ ~ ~ #sbp:villager_ocean_biomes run function sbp:villager/armorer/process_expert/ocean
+execute if biome ~ ~ ~ #sbp:villager_plains_biomes run function sbp:villager/armorer/process_expert/plains
+execute if biome ~ ~ ~ #sbp:villager_savanna_biomes run function sbp:villager/armorer/process_expert/savanna
+execute if biome ~ ~ ~ #sbp:villager_snowy_biomes run function sbp:villager/armorer/process_expert/snowy
+execute if biome ~ ~ ~ #sbp:villager_swamp_biomes run function sbp:villager/armorer/process_expert/swamp
+execute if biome ~ ~ ~ #sbp:villager_taiga_biomes run function sbp:villager/armorer/process_expert/taiga

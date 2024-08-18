@@ -1,0 +1,36 @@
+{
+  "criteria": {
+    "in_end": {
+			"trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "dimension": "minecraft:the_end"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+	"parent": "sbp:nether/following_the_leader",
+  "display": {
+    "announce_to_chat": true,
+    "description": "Travel to the end",
+    "icon": {
+      "id": "minecraft:end_portal_frame"
+    },
+    "show_toast": false,
+    "title": "Portal Two"
+  },
+  "requirements": [
+    [
+      "in_end"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,27 @@
+{
+	"values": [
+		"minecraft:river",
+		"minecraft:beach",
+		"minecraft:stony_shore",
+		"minecraft:stony_peaks",
+		"minecraft:meadow",
+		"minecraft:mushroom_fields",
+		"minecraft:plains",
+		"minecraft:sunflower_plains",
+		"minecraft:dripstone_caves",
+		"minecraft:lush_caves",
+		"minecraft:basalt_deltas",
+		"minecraft:crimson_forest",
+		"minecraft:nether_wastes",
+		"minecraft:soul_sand_valley",
+		"minecraft:warped_forest",
+		"minecraft:the_end",
+		"minecraft:end_barrens",
+		"minecraft:end_highlands",
+		"minecraft:end_midlands",
+		"minecraft:small_end_islands",
+		"minecraft:the_void",
+		"minecraft:windswept_gravelly_hills",
+		"minecraft:windswept_hills"
+	]
+}

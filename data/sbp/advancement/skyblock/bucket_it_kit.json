@@ -1,0 +1,124 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:bucket"
+    },
+    "title": "Bucket It Kit",
+    "description": "Bucket everything that can be placed in a bucket"
+  },
+  "parent": "sbp:skyblock/hot_hot",
+  "criteria": {
+    "get_water_bucket": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:water_bucket"
+          }
+        ]
+      }
+    },
+		"get_lava_bucket": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:lava_bucket"
+          }
+        ]
+      }
+    },
+		"get_powder_snow_bucket": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:powder_snow_bucket"
+          }
+        ]
+      }
+    },
+		"get_milk_bucket": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:milk_bucket"
+          }
+        ]
+      }
+    },
+		"get_cod_bucket": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cod_bucket"
+          }
+        ]
+      }
+    },
+		"get_salmon_bucket": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:salmon_bucket"
+          }
+        ]
+      }
+    },
+		"get_tropical_fish_bucket": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:tropical_fish_bucket"
+          }
+        ]
+      }
+    },
+		"get_pufferfish_bucket": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:pufferfish_bucket"
+          }
+        ]
+      }
+    },
+		"get_axolotl_bucket": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:axolotl_bucket"
+          }
+        ]
+      }
+    },
+		"get_tadpole_bucket": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:tadpole_bucket"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["get_water_bucket"],
+		["get_lava_bucket"],
+		["get_powder_snow_bucket"],
+		["get_milk_bucket"],
+		["get_cod_bucket"],
+		["get_salmon_bucket"],
+		["get_tropical_fish_bucket"],
+		["get_pufferfish_bucket"],
+		["get_axolotl_bucket"],
+		["get_tadpole_bucket"]
+  ]
+}

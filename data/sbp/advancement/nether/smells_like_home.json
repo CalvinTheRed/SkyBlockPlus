@@ -1,0 +1,105 @@
+{
+	"display": {
+    "icon": {
+      "id": "minecraft:soul_sand"
+    },
+    "title": "Smells Like Home",
+    "description": "Bring a Sniffer to the nether and let it dig in some soul sand"
+  },
+  "parent": "sbp:nether/exotic_goods",
+  "criteria": {
+    "get_soul_soil": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:soul_soil"
+            ]
+          }
+        ]
+      }
+    },
+		"get_pitcher_pod": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:pitcher_pod"
+            ]
+          }
+        ]
+      }
+    },
+		"get_torchflower_seeds": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:torchflower_seeds"
+            ]
+          }
+        ]
+      }
+    },
+		"get_warped_fungus": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:warped_fungus"
+            ]
+          }
+        ]
+      }
+    },
+		"get_crimson_fungus": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:crimson_fungus"
+            ]
+          }
+        ]
+      }
+    },
+		"get_nether_wart": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+							"minecraft:nether_wart"
+            ]
+          }
+        ]
+      }
+    },
+		"get_ancient_debris": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:ancient_debris"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["get_soul_soil"],
+		["get_pitcher_pod"],
+		["get_torchflower_seeds"],
+		["get_warped_fungus"],
+		["get_crimson_fungus"],
+		["get_nether_wart"],
+		["get_ancient_debris"]
+  ]
+}

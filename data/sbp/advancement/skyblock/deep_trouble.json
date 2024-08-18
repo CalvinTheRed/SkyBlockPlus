@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:acacia_trapdoor"
+    },
+    "title": "Deep Trouble",
+    "description": "Build down to the bottom of the world"
+  },
+  "parent": "sbp:skyblock/treemendous",
+  "criteria": {
+    "reach_bottom_of_world": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "position": {
+                  "y": -63
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "reach_bottom_of_world"
+    ]
+  ]
+}

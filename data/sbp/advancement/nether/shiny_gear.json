@@ -1,0 +1,38 @@
+{
+  "parent": "sbp:nether/let_it_cook",
+  "criteria": {
+    "diamond_armor": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:diamond_helmet"
+          },
+          {
+            "items": "minecraft:diamond_chestplate"
+          },
+          {
+            "items": "minecraft:diamond_leggings"
+          },
+          {
+            "items": "minecraft:diamond_boots"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": "Get a full suit of diamond armor",
+    "frame": "challenge",
+    "icon": {
+      "id": "minecraft:diamond_chestplate"
+    },
+    "title": "Be Jeweled"
+  },
+  "requirements": [
+    [
+      "diamond_armor"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

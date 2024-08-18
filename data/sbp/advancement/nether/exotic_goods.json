@@ -1,0 +1,59 @@
+{
+  "parent": "sbp:nether/root",
+  "criteria": {
+    "distract_piglin": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:piglin",
+              "flags": {
+                "is_baby": false
+              }
+            }
+          }
+        ],
+        "item": {
+          "items": "minecraft:gold_ingot"
+        }
+      },
+      "trigger": "minecraft:thrown_item_picked_up_by_entity"
+    },
+    "distract_piglin_directly": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:piglin",
+              "flags": {
+                "is_baby": false
+              }
+            }
+          }
+        ],
+        "item": {
+          "items": "minecraft:gold_ingot"
+        }
+      },
+      "trigger": "minecraft:player_interacted_with_entity"
+    }
+  },
+  "display": {
+    "description": "Give a Piglin some gold and see what they offer",
+    "icon": {
+      "id": "minecraft:gold_ingot"
+    },
+    "title": "Exotic Goods"
+  },
+  "requirements": [
+    [
+      "distract_piglin",
+      "distract_piglin_directly"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

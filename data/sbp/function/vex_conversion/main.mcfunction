@@ -1,0 +1,1 @@
+execute as @e[type=minecraft:vex] at @s run function sbp:vex_conversion/tick

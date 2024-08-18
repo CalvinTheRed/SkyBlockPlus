@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:elytra"
+    },
+    "title": "Look Ma, I'm Flying!",
+    "description": "Kill a Phantom in the end to get an elytra"
+  },
+  "parent": "sbp:end/root",
+  "criteria": {
+    "get_elytra": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:elytra"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_elytra"
+    ]
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ominous_bottle"
+    },
+    "title": "Saving You From Myself",
+    "description": "Beat a raid that you started"
+  },
+  "parent": "sbp:skyblock/witch_doctor",
+  "criteria": {
+    "hero_of_the_village": {
+      "trigger": "minecraft:hero_of_the_village"
+    }
+  },
+  "requirements": [
+    [
+      "hero_of_the_village"
+    ]
+  ]
+}

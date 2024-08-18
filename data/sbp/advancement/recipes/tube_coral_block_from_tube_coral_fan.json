@@ -1,0 +1,32 @@
+{
+  "parent": "sbp:recipes/root",
+  "criteria": {
+    "has_tube_coral_fan": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:tube_coral_fan"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "sbp:blocks/tube_coral_block_from_tube_coral_fan"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_tube_coral_fan"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "sbp:blocks/tube_coral_block_from_tube_coral_fan"
+    ]
+  }
+}

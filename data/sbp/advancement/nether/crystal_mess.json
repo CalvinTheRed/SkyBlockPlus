@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:amethyst_shard"
+    },
+    "title": "Crystal Mess",
+    "description": "Craft amethyst"
+  },
+  "parent": "sbp:nether/exotic_goods",
+  "criteria": {
+    "get_amethyst_shard": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:amethyst_shard"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "get_amethyst_shard"
+    ]
+  ]
+}

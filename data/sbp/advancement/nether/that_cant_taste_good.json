@@ -1,0 +1,22 @@
+{
+  "parent": "sbp:nether/fire_fighter",
+  "criteria": {
+    "potion": {
+      "trigger": "minecraft:brewed_potion"
+    }
+  },
+  "display": {
+    "description": "Brew a potion",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:brewing_stand"
+    },
+    "title": "That Can't Taste Good"
+  },
+  "requirements": [
+    [
+      "potion"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

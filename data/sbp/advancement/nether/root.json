@@ -1,0 +1,37 @@
+{
+  "criteria": {
+    "in_nether": {
+			"trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "dimension": "minecraft:the_nether"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "minecraft:textures/block/soul_soil.png",
+    "description": "All that, for another void?",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:netherrack"
+    },
+    "show_toast": false,
+    "title": "Nether"
+  },
+  "requirements": [
+    [
+      "in_nether"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

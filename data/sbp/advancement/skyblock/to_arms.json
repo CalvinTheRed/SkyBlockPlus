@@ -1,0 +1,15 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:goat_horn"
+    },
+    "title": "To Arms!",
+    "description": "Play a goat horn near some Vex to rally them to your side"
+  },
+  "parent": "sbp:skyblock/witch_doctor",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

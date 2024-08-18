@@ -1,0 +1,22 @@
+{
+  "parent": "sbp:skyblock/its_oakay_now",
+  "criteria": {
+    "cured_zombie": {
+      "trigger": "minecraft:cured_zombie_villager"
+    }
+  },
+  "display": {
+    "description": "Convince a Witch to help you cure a Zombie Villager",
+    "frame": "goal",
+    "icon": {
+      "id": "minecraft:golden_apple"
+    },
+    "title": "Witch Doctor"
+  },
+  "requirements": [
+    [
+      "cured_zombie"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
