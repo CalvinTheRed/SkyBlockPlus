@@ -1,5 +1,19 @@
 {
   "values": [
-    "minecraft:soul_sand"
+    "minecraft:netherrack",
+		"minecraft:crimson_nylium",
+		"minecraft:warped_nylium",
+		"minecraft:soul_sand",
+		"minecraft:soul_soil",
+		"minecraft:grass_block",
+		"minecraft:dirt",
+		"minecraft:coarse_dirt",
+		"minecraft:rooted_dirt",
+		"minecraft:mud",
+		"minecraft:muddy_mangrove_roots",
+		"minecraft:sand",
+		"minecraft:red_sand",
+		"minecraft:moss_block",
+		"minecraft:pale_moss_block"
   ]
 }

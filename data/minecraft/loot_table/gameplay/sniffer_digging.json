@@ -2,11 +2,25 @@
   "type": "minecraft:gift",
   "pools": [
     {
-      "rolls": 1,
+      "bonus_rolls": 0,
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:soul_soil"
+          "name": "minecraft:torchflower_seeds",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "offsetX": 0,
+              "offsetY": -1,
+              "offsetZ": 0,
+              "predicate": {
+                "biomes": "minecraft:crimson_forest",
+                "block": {
+                  "blocks": "minecraft:crimson_nylium"
+                }
+              }
+            }
+          ]
         },
         {
           "type": "minecraft:item",
@@ -14,56 +28,62 @@
           "conditions": [
             {
               "condition": "minecraft:location_check",
+              "offsetX": 0,
+              "offsetY": -1,
+              "offsetZ": 0,
               "predicate": {
-                "dimension": "minecraft:the_nether"
+                "biomes": "minecraft:warped_forest",
+                "block": {
+                  "blocks": "minecraft:warped_nylium"
+                }
               }
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:torchflower_seeds",
+          "name": "minecraft:gold_nugget",
           "conditions": [
             {
               "condition": "minecraft:location_check",
+              "offsetX": 0,
+              "offsetY": -1,
+              "offsetZ": 0,
               "predicate": {
-                "dimension": "minecraft:the_nether"
+                "dimension": "minecraft:the_nether",
+                "block": {
+                  "blocks": [
+                    "minecraft:netherrack",
+                    "minecraft:crimson_nylium",
+                    "minecraft:warped_nylium",
+                    "minecraft:soul_sand",
+                    "minecraft:soul_soil"
+                  ]
+                }
               }
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:warped_fungus",
+          "name": "minecraft:quartz",
           "conditions": [
             {
               "condition": "minecraft:location_check",
+              "offsetX": 0,
+              "offsetY": -1,
+              "offsetZ": 0,
               "predicate": {
-                "dimension": "minecraft:the_nether"
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:crimson_fungus",
-          "conditions": [
-            {
-              "condition": "minecraft:location_check",
-              "predicate": {
-                "dimension": "minecraft:the_nether"
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:nether_wart",
-          "conditions": [
-            {
-              "condition": "minecraft:location_check",
-              "predicate": {
-                "dimension": "minecraft:the_nether"
+                "dimension": "minecraft:the_nether",
+                "block": {
+                  "blocks": [
+                    "minecraft:netherrack",
+                    "minecraft:crimson_nylium",
+                    "minecraft:warped_nylium",
+                    "minecraft:soul_sand",
+                    "minecraft:soul_soil"
+                  ]
+                }
               }
             }
           ]
@@ -74,13 +94,120 @@
           "conditions": [
             {
               "condition": "minecraft:location_check",
+              "offsetX": 0,
+              "offsetY": -1,
+              "offsetZ": 0,
               "predicate": {
-                "biomes": "minecraft:the_nether"
+                "biomes": "minecraft:nether_wastes",
+                "block": {
+                  "blocks": "minecraft:netherrack"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:soul_soil",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "offsetX": 0,
+              "offsetY": -1,
+              "offsetZ": 0,
+              "predicate": {
+                "dimension": "minecraft:the_nether",
+                "block": {
+                  "blocks": "minecraft:soul_sand"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:resin_clump",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "offsetX": 0,
+              "offsetY": -1,
+              "offsetZ": 0,
+              "predicate": {
+                "biomes": "minecraft:pale_garden",
+                "block": {
+                  "blocks": [
+                    "minecraft:grass_block",
+                    "minecraft:dirt",
+                    "minecraft:coarse_dirt",
+                    "minecraft:rooted_dirt",
+                    "minecraft:mud",
+                    "minecraft:muddy_mangrove_roots",
+                    "minecraft:moss_block",
+                    "minecraft:pale_moss_block"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:closed_eyeblossom",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "offsetX": 0,
+              "offsetY": -1,
+              "offsetZ": 0,
+              "predicate": {
+                "biomes": "minecraft:pale_garden",
+                "block": {
+                  "blocks": [
+                    "minecraft:grass_block",
+                    "minecraft:dirt",
+                    "minecraft:coarse_dirt",
+                    "minecraft:rooted_dirt",
+                    "minecraft:mud",
+                    "minecraft:muddy_mangrove_roots",
+                    "minecraft:moss_block",
+                    "minecraft:pale_moss_block"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:open_eyeblossom",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "offsetX": 0,
+              "offsetY": -1,
+              "offsetZ": 0,
+              "predicate": {
+                "biomes": "minecraft:pale_garden",
+                "block": {
+                  "blocks": [
+                    "minecraft:grass_block",
+                    "minecraft:dirt",
+                    "minecraft:coarse_dirt",
+                    "minecraft:rooted_dirt",
+                    "minecraft:mud",
+                    "minecraft:muddy_mangrove_roots",
+                    "minecraft:moss_block",
+                    "minecraft:pale_moss_block"
+                  ]
+                }
               }
             }
           ]
         }
-      ]
+      ],
+      "rolls": 1
     }
-  ]
+  ],
+  "random_sequence": "minecraft:gameplay/sniffer_digging"
 }
