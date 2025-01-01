@@ -3,17 +3,17 @@
   "category": "blocks",
   "ingredients": [
 		"minecraft:stone",
-		"minecraft:stone",
-		"minecraft:stone",
-		"minecraft:stone",
-		"minecraft:stone",
-		"minecraft:stone",
-		"minecraft:stone",
-		"minecraft:stone",
-		"minecraft:bone_block"
+		"minecraft:bone_meal",
+		"minecraft:bone_meal",
+		"minecraft:bone_meal",
+		"minecraft:bone_meal",
+		"minecraft:bone_meal",
+		"minecraft:bone_meal",
+		"minecraft:bone_meal",
+		"minecraft:bone_meal"
   ],
   "result": {
     "id": "minecraft:calcite",
-    "count": 8
+    "count": 1
   }
 }

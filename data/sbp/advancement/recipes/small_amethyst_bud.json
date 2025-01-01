@@ -1,0 +1,32 @@
+{
+  "parent": "sbp:recipes/root",
+  "criteria": {
+    "minecraft:amethyst_shard": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:amethyst_shard"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "sbp:misc/small_amethyst_bud"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "minecraft:amethyst_shard"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "sbp:misc/small_amethyst_bud"
+    ]
+  }
+}

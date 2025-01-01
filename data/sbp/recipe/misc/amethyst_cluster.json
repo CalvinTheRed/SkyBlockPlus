@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " S ",
+    "SBS",
+		" S "
+  ],
+  "key": {
+    "S": "minecraft:amethyst_shard",
+		"B": "minecraft:large_amethyst_bud"
+  },
+  "result": {
+    "id": "minecraft:amethyst_cluster",
+    "count": 1
+  }
+}
