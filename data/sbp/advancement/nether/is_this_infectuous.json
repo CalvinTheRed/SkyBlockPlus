@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_wart"
+    },
+    "title": "Is This Infectuous?",
+    "description": "Harvest nether wart from some nether wart blocks"
+  },
+  "parent": "sbp:nether/smells_like_home",
+  "criteria": {
+    "minecraft:nether_wart": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:nether_wart"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["minecraft:nether_wart"]
+  ]
+}
