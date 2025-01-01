@@ -41,20 +41,34 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:heavy_core",
-          "conditions": [
-            {
-              "condition": "minecraft:killed_by_player"
-            },
-            {
-              "condition": "minecraft:weather_check",
-              "thundering": true
-            },
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.1
-            }
-          ]
+          "name": "minecraft:heavy_core"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_custom_data",
+          "tag": {
+            "end_storm": true
+          }
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:killed_by_player"
+        },
+        {
+          "condition": "minecraft:weather_check",
+          "thundering": true
+        },
+        {
+          "condition": "minecraft:random_chance_with_enchanted_bonus",
+          "unenchanted_chance": 0.02,
+          "enchanted_chance": {
+            "type": "minecraft:linear",
+            "base": 0.03,
+            "per_level_above_first": 0.01
+          },
+          "enchantment": "minecraft:looting"
         }
       ]
     }

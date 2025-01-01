@@ -1,0 +1,1 @@
+execute as @e[type=minecraft:item] if data entity @s Item.components."minecraft:custom_data".end_storm run function sbp:end_storm/end_storm
