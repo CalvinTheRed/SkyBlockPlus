@@ -654,7 +654,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:closed_eyeblossom",
-          "weight": 1,
+          "weight": 10,
           "conditions": [
             {
               "condition": "minecraft:location_check",
@@ -687,7 +687,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:open_eyeblossom",
-          "weight": 1,
+          "weight": 10,
           "conditions": [
             {
               "condition": "minecraft:location_check",
@@ -850,6 +850,25 @@
                     "minecraft:coarse_dirt",
                     "minecraft:rooted_dirt"
                   ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:resin_clump",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "offsetX": 0,
+              "offsetY": -1,
+              "offsetZ": 0,
+              "predicate": {
+                "biomes": "minecraft:pale_garden",
+                "block": {
+                  "blocks": "minecraft:pale_moss_block"
                 }
               }
             }
