@@ -8,51 +8,27 @@
   },
   "parent": "sbp:skyblock/vanquisher",
   "criteria": {
-    "minecraft:golden_helmet": {
-      "trigger": "minecraft:inventory_changed",
+    "golden_armor": {
       "conditions": {
         "items": [
           {
             "items": "minecraft:golden_helmet"
-          }
-        ]
-      }
-    },
-		"minecraft:golden_chestplate": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
+          },
           {
             "items": "minecraft:golden_chestplate"
-          }
-        ]
-      }
-    },
-		"minecraft:golden_leggings": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
+          },
           {
             "items": "minecraft:golden_leggings"
-          }
-        ]
-      }
-    },
-		"minecraft:golden_boots": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
+          },
           {
             "items": "minecraft:golden_boots"
           }
         ]
-      }
+      },
+      "trigger": "minecraft:inventory_changed"
     }
   },
   "requirements": [
-    ["minecraft:golden_helmet"],
-		["minecraft:golden_chestplate"],
-		["minecraft:golden_leggings"],
-		["minecraft:golden_boots"]
+    ["golden_armor"]
   ]
 }
