@@ -30,9 +30,7 @@
     "title": "Be Jeweled"
   },
   "requirements": [
-    [
-      "diamond_armor"
-    ]
+    ["diamond_armor"]
   ],
   "sends_telemetry_event": true
 }

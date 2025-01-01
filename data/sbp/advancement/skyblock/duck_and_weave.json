@@ -20,8 +20,6 @@
     }
   },
   "requirements": [
-    [
-      "minecraft:cobweb"
-    ]
+    ["minecraft:cobweb"]
   ]
 }

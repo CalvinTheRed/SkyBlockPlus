@@ -21,8 +21,6 @@
     }
   },
   "requirements": [
-    [
-      "plant_sapling"
-    ]
+    ["plant_sapling"]
   ]
 }

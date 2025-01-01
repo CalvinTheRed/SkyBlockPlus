@@ -4,11 +4,11 @@
       "id": "minecraft:oak_sapling"
     },
     "title": "It's Oakay Now",
-    "description": "Buy some oak saplings from a Wandering Trader"
+    "description": "Buy some oak saplings from a wandering trader"
   },
   "parent": "sbp:skyblock/green_deal",
   "criteria": {
-    "get_oak_sapling": {
+    "minecraft:oak_sapling": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -18,7 +18,7 @@
         ]
       }
     },
-		"get_dark_oak_sapling": {
+		"minecraft:dark_oak_sapling": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -31,8 +31,8 @@
   },
   "requirements": [
     [
-      "get_oak_sapling",
-			"get_dark_oak_sapling"
+      "minecraft:oak_sapling",
+			"minecraft:dark_oak_sapling"
     ]
   ]
 }

@@ -4,11 +4,11 @@
       "id": "minecraft:breeze_rod"
     },
     "title": "Mind Blowing",
-    "description": "Travel to a windswept biome and relieve a Breeze of its rods"
+    "description": "Travel to a windswept biome and relieve a breeze of its rods"
   },
   "parent": "sbp:skyblock/vanquisher",
   "criteria": {
-    "get_breeze_rod": {
+    "minecraft:breeze_rod": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -20,8 +20,6 @@
     }
   },
   "requirements": [
-    [
-      "get_breeze_rod"
-    ]
+    ["minecraft:breeze_rod"]
   ]
 }

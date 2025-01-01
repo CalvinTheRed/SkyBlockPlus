@@ -4,11 +4,11 @@
       "id": "minecraft:ancient_debris"
     },
     "title": "One Man's Trash",
-    "description": "Sniff out some Ancient Debris from Netherrack in the Nether"
+    "description": "Sniff out some ancient debris from netherrack in the nether"
   },
   "parent": "sbp:nether/kill_it_with_fire",
   "criteria": {
-    "get_ancient_debris": {
+    "minecraft:ancient_debris": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -20,8 +20,6 @@
     }
   },
   "requirements": [
-    [
-      "get_ancient_debris"
-    ]
+    ["minecraft:ancient_debris"]
   ]
 }

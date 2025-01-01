@@ -1,7 +1,7 @@
 {
   "parent": "sbp:skyblock/vanquisher",
   "criteria": {
-    "slept_in_bed": {
+    "minecraft:slept_in_bed": {
       "trigger": "minecraft:slept_in_bed"
     }
   },
@@ -11,12 +11,10 @@
       "count": 1,
       "id": "minecraft:white_bed"
     },
-    "title": "Silky Soft"
+    "title": "Sweet Dreams Are Made Of... Spiders"
   },
   "requirements": [
-    [
-      "slept_in_bed"
-    ]
+    ["minecraft:slept_in_bed"]
   ],
   "sends_telemetry_event": true
 }

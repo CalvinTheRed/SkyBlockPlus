@@ -4,7 +4,7 @@
       "id": "minecraft:blaze_rod"
     },
     "title": "Fire Fighter",
-    "description": "Travel to a nether fortress and kill a Blaze"
+    "description": "Travel to a nether fortress and kill a blaze"
   },
   "parent": "sbp:nether/root",
   "criteria": {
@@ -24,8 +24,6 @@
     }
   },
   "requirements": [
-    [
-      "killed_blaze"
-    ]
+    ["killed_blaze"]
   ]
 }

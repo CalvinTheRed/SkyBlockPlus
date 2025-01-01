@@ -26,8 +26,6 @@
     }
   },
   "requirements": [
-    [
-      "killed_levitating_silverfish"
-    ]
+    ["killed_levitating_silverfish"]
   ]
 }

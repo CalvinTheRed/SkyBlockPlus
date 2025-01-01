@@ -8,7 +8,7 @@
   },
   "parent": "sbp:skyblock/root",
   "criteria": {
-    "get_grass_block": {
+    "minecraft:grass_block": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -20,8 +20,6 @@
     }
   },
   "requirements": [
-    [
-      "get_grass_block"
-    ]
+    ["minecraft:grass_block"]
   ]
 }

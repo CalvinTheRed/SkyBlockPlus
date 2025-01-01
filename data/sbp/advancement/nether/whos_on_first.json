@@ -4,7 +4,7 @@
       "id": "minecraft:pitcher_pod"
     },
     "title": "Who's On First?",
-    "description": "Sniff up a Pitcher Pod from Warped Nylium"
+    "description": "Sniff up a pitcher pod from warped nylium"
   },
   "parent": "sbp:nether/warped_personality",
   "criteria": {

@@ -1,7 +1,7 @@
 {
   "parent": "sbp:skyblock/bless_the_rains",
   "criteria": {
-    "cod": {
+    "went_fishing": {
       "trigger": "minecraft:fishing_rod_hooked"
     }
   },
@@ -13,9 +13,7 @@
     "title": "Fishful Thinking"
   },
   "requirements": [
-    [
-      "cod"
-    ]
+    ["went_fishing"]
   ],
   "sends_telemetry_event": true
 }

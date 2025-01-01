@@ -4,24 +4,22 @@
       "id": "minecraft:tuff"
     },
     "title": "Tuff To Kill",
-    "description": "Explode a Silverfish to get tuff"
+    "description": "Explode a silverfish to get tuff"
   },
   "parent": "sbp:nether/that_cant_taste_good",
   "criteria": {
-    "get_cobbled_deepslate": {
+    "minecraft:tuff": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "minecraft:cobbled_deepslate"
+            "items": "minecraft:tuff"
           }
         ]
       }
     }
   },
   "requirements": [
-    [
-      "get_cobbled_deepslate"
-    ]
+    ["minecraft:tuff"]
   ]
 }

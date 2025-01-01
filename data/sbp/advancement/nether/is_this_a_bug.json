@@ -4,11 +4,11 @@
       "id": "minecraft:cobbled_deepslate"
     },
     "title": "Is This A Bug?",
-    "description": "Kill a Silverfish and acquire cobbled deepslate"
+    "description": "Kill a silverfish and acquire cobbled deepslate"
   },
   "parent": "sbp:nether/that_cant_taste_good",
   "criteria": {
-    "get_cobbled_deepslate": {
+    "minecraft:cobbled_deepslate": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -20,8 +20,6 @@
     }
   },
   "requirements": [
-    [
-      "get_cobbled_deepslate"
-    ]
+    ["minecraft:cobbled_deepslate"]
   ]
 }

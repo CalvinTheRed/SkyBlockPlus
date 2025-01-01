@@ -4,11 +4,11 @@
       "id": "minecraft:heart_of_the_sea"
     },
     "title": "Heart of the Storm",
-    "description": "Kill a Drowned during a storm and get a heart of the sea"
+    "description": "Kill a drowned during a storm and get a heart of the sea"
   },
   "parent": "sbp:skyblock/bless_the_rains",
   "criteria": {
-    "get_heart_of_the_sea": {
+    "minecraft:heart_of_the_sea": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -21,7 +21,7 @@
   },
   "requirements": [
     [
-      "get_heart_of_the_sea"
+      "minecraft:heart_of_the_sea"
     ]
   ]
 }

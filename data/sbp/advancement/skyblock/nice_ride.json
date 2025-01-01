@@ -8,7 +8,7 @@
   },
   "parent": "sbp:skyblock/ooh_shiny",
   "criteria": {
-    "get_leather_horse_armor": {
+    "minecraft:leather_horse_armor": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -18,7 +18,7 @@
         ]
       }
     },
-		"get_golden_horse_armor": {
+		"minecraft:golden_horse_armor": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -28,7 +28,7 @@
         ]
       }
     },
-		"get_iron_horse_armor": {
+		"minecraft:iron_horse_armor": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -38,7 +38,7 @@
         ]
       }
     },
-		"get_diamond_horse_armor": {
+		"minecraft:diamond_horse_armor": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -50,9 +50,9 @@
     }
   },
   "requirements": [
-		["get_leather_horse_armor"],
-		["get_golden_horse_armor"],
-		["get_iron_horse_armor"],
-		["get_diamond_horse_armor"]
+		["minecraft:leather_horse_armor"],
+		["minecraft:golden_horse_armor"],
+		["minecraft:iron_horse_armor"],
+		["minecraft:diamond_horse_armor"]
   ]
 }

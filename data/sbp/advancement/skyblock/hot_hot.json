@@ -4,11 +4,11 @@
       "id": "minecraft:lava_bucket"
     },
     "title": "Hot, Hot!",
-    "description": "Receive a lava bucket as a gift from a toolsmith Villager"
+    "description": "Receive a lava bucket as a gift from a toolsmith"
   },
   "parent": "sbp:skyblock/saving_you_from_myself",
   "criteria": {
-    "get_lava_bucket": {
+    "minecraft:lava_bucket": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -20,8 +20,6 @@
     }
   },
   "requirements": [
-    [
-      "get_lava_bucket"
-    ]
+    ["minecraft:lava_bucket"]
   ]
 }

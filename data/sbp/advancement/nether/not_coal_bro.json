@@ -4,7 +4,7 @@
       "id": "minecraft:coal"
     },
     "title": "Not Coal, Bro!",
-    "description": "Slay a Wither Skeleton"
+    "description": "Slay a wither skeleton"
   },
   "parent": "sbp:nether/root",
   "criteria": {
@@ -24,8 +24,6 @@
     }
   },
   "requirements": [
-    [
-      "killed_wither_skeleton"
-    ]
+    ["killed_wither_skeleton"]
   ]
 }

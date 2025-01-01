@@ -4,7 +4,7 @@
       "id": "minecraft:torchflower_seeds"
     },
     "title": "That's Not A Torch",
-    "description": "Sniff up some Torchflower Seeds from Crimson Nylium"
+    "description": "Sniff up some torchflower seeds from crimson nylium"
   },
   "parent": "sbp:nether/a_fiery_fungus",
   "criteria": {

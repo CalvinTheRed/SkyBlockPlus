@@ -4,11 +4,11 @@
       "id": "minecraft:echo_shard"
     },
     "title": "Resonance",
-    "description": "Get an echo shard when a Warden kills a dolphin or a bat"
+    "description": "Get an echo shard when a warden kills a dolphin or a bat"
   },
   "parent": "sbp:skyblock/let_it_spread",
   "criteria": {
-    "get_echo_shard": {
+    "minecraft:echo_shard": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -20,8 +20,6 @@
     }
   },
   "requirements": [
-    [
-      "get_echo_shard"
-    ]
+    ["minecraft:echo_shard"]
   ]
 }

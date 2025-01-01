@@ -8,13 +8,11 @@
   },
   "parent": "sbp:skyblock/witch_doctor",
   "criteria": {
-    "hero_of_the_village": {
+    "minecraft:hero_of_the_village": {
       "trigger": "minecraft:hero_of_the_village"
     }
   },
   "requirements": [
-    [
-      "hero_of_the_village"
-    ]
+    ["minecraft:hero_of_the_village"]
   ]
 }

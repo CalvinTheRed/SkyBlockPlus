@@ -29,9 +29,7 @@
     "title": "Escape The Void"
   },
   "requirements": [
-    [
-      "in_nether"
-    ]
+    ["in_nether"]
   ],
   "sends_telemetry_event": true
 }

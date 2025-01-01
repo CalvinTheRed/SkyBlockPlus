@@ -1,7 +1,7 @@
 {
   "parent": "sbp:nether/crushing_it",
   "criteria": {
-    "enchanted_item": {
+    "minecraft:enchanted_item": {
       "trigger": "minecraft:enchanted_item"
     }
   },
@@ -14,9 +14,7 @@
     "title": "Messing With Magic"
   },
   "requirements": [
-    [
-      "enchanted_item"
-    ]
+    ["minecraft:enchanted_item"]
   ],
   "sends_telemetry_event": true
 }

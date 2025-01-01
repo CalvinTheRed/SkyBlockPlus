@@ -8,7 +8,7 @@
   },
   "parent": "sbp:skyblock/hot_hot",
   "criteria": {
-    "get_cobblestone": {
+    "minecraft:cobblestone": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -20,8 +20,6 @@
     }
   },
   "requirements": [
-    [
-      "get_cobblestone"
-    ]
+    ["minecraft:cobblestone"]
   ]
 }

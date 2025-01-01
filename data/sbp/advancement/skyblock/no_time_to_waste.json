@@ -7,11 +7,11 @@
       }
     },
     "title": "No Time To Waste",
-    "description": "Work with a Villager in the deep dark to enchant something with swift sneak"
+    "description": "Work with a villager in the deep dark to enchant something with swift sneak"
   },
   "parent": "sbp:skyblock/witch_doctor",
   "criteria": {
-    "get_swift_sneak": {
+    "minecraft:swift_sneak": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -29,8 +29,6 @@
     }
   },
   "requirements": [
-    [
-      "get_swift_sneak"
-    ]
+    ["minecraft:swift_sneak"]
   ]
 }

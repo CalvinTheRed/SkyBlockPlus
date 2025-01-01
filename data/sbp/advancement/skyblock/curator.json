@@ -4,7 +4,7 @@
       "id": "minecraft:prize_pottery_sherd"
     },
     "title": "Curator",
-    "description": "Commission every sherd variant from Masons"
+    "description": "Commission every sherd variant from villagers"
   },
   "parent": "sbp:skyblock/rock_and_roll",
   "criteria": {

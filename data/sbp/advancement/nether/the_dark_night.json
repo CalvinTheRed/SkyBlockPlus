@@ -30,9 +30,7 @@
     "title": "The Dark Knight"
   },
   "requirements": [
-    [
-      "netherite_armor"
-    ]
+    ["netherite_armor"]
   ],
   "sends_telemetry_event": true
 }

@@ -4,11 +4,11 @@
       "id": "minecraft:copper_ingot"
     },
     "title": "This Metal Sparks!",
-    "description": "Collect copper from a Drowned"
+    "description": "Collect copper from a drowned"
   },
   "parent": "sbp:skyblock/bless_the_rains",
   "criteria": {
-    "get_copper": {
+    "minecraft:copper": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -20,8 +20,6 @@
     }
   },
   "requirements": [
-    [
-      "get_copper"
-    ]
+    ["minecraft:copper"]
   ]
 }

@@ -8,7 +8,7 @@
   },
   "parent": "sbp:nether/kill_it_with_fire",
   "criteria": {
-    "get_crimson_nylium": {
+    "minecraft:crimson_nylium": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -20,8 +20,6 @@
     }
   },
   "requirements": [
-    [
-      "get_crimson_nylium"
-    ]
+    ["minecraft:crimson_nylium"]
   ]
 }

@@ -8,7 +8,7 @@
   },
   "parent": "sbp:nether/exotic_goods",
   "criteria": {
-    "get_amethyst_shard": {
+    "minecraft:amethyst_shard": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -20,8 +20,6 @@
     }
   },
   "requirements": [
-    [
-      "get_amethyst_shard"
-    ]
+    ["minecraft:amethyst_shard"]
   ]
 }

@@ -13,8 +13,6 @@
     }
   },
   "requirements": [
-    [
-      "kill_something"
-    ]
+    ["kill_something"]
   ]
 }

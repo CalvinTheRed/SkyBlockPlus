@@ -4,7 +4,7 @@
       "id": "minecraft:wet_sponge"
     },
     "title": "Promotion",
-    "description": "Strike a Guardian with lightning"
+    "description": "Strike a guardian with lightning"
   },
   "parent": "sbp:skyblock/this_metal_sparks",
   "criteria": {
@@ -13,8 +13,6 @@
     }
   },
   "requirements": [
-    [
-      "impossible"
-    ]
+    ["impossible"]
   ]
 }

@@ -28,9 +28,7 @@
     "title": "The End"
   },
   "requirements": [
-    [
-      "in_end"
-    ]
+    ["in_end"]
   ],
   "sends_telemetry_event": true
 }

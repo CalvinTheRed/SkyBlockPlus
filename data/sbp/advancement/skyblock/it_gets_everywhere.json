@@ -4,11 +4,11 @@
       "id": "minecraft:sand"
     },
     "title": "It Gets Everywhere",
-    "description": "Get some sand from a Husk"
+    "description": "Get some sand from a husk"
   },
   "parent": "sbp:skyblock/vanquisher",
   "criteria": {
-    "get_sand": {
+    "minecraft:sand": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -20,8 +20,6 @@
     }
   },
   "requirements": [
-    [
-      "get_sand"
-    ]
+    ["minecraft:sand"]
   ]
 }

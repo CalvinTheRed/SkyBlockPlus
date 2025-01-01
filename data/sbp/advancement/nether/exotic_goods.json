@@ -43,7 +43,7 @@
     }
   },
   "display": {
-    "description": "Give a Piglin some gold and see what they offer",
+    "description": "Give a piglin some gold and see what they offer",
     "icon": {
       "id": "minecraft:gold_ingot"
     },

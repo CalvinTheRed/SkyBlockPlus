@@ -4,11 +4,11 @@
       "id": "minecraft:sculk_catalyst"
     },
     "title": "Let It Spread",
-    "description": "Slay a Warden and collect a sculk catalyst"
+    "description": "Slay a warden and collect a sculk catalyst"
   },
   "parent": "sbp:skyblock/vanquisher",
   "criteria": {
-    "get_sculk_catalyst": {
+    "minecraft:sculk_catalyst": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -21,7 +21,7 @@
   },
   "requirements": [
     [
-      "get_sculk_catalyst"
+      "minecraft:sculk_catalyst"
     ]
   ]
 }

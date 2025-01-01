@@ -29,9 +29,7 @@
     "title": "Skyblock"
   },
   "requirements": [
-    [
-      "in_world"
-    ]
+    ["in_world"]
   ],
   "sends_telemetry_event": true
 }

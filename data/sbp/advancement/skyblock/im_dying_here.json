@@ -8,7 +8,7 @@
   },
   "parent": "sbp:skyblock/uprooted",
   "criteria": {
-    "get_white_dye": {
+    "minecraft:white_dye": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -18,7 +18,7 @@
         ]
       }
     },
-		"get_light_gray_dye": {
+		"minecraft:light_gray_dye": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -28,7 +28,7 @@
         ]
       }
     },
-		"get_gray_dye": {
+		"minecraft:gray_dye": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -38,7 +38,7 @@
         ]
       }
     },
-		"get_black_dye": {
+		"minecraft:black_dye": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -48,7 +48,7 @@
         ]
       }
     },
-		"get_brown_dye": {
+		"minecraft:brown_dye": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -58,7 +58,7 @@
         ]
       }
     },
-		"get_red_dye": {
+		"minecraft:red_dye": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -68,7 +68,7 @@
         ]
       }
     },
-		"get_orange_dye": {
+		"minecraft:orange_dye": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -78,7 +78,7 @@
         ]
       }
     },
-		"get_yellow_dye": {
+		"minecraft:yellow_dye": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -88,7 +88,7 @@
         ]
       }
     },
-		"get_lime_dye": {
+		"minecraft:lime_dye": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -98,7 +98,7 @@
         ]
       }
     },
-		"get_green_dye": {
+		"minecraft:green_dye": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -108,7 +108,7 @@
         ]
       }
     },
-		"get_cyan_dye": {
+		"minecraft:cyan_dye": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -118,7 +118,7 @@
         ]
       }
     },
-		"get_light_blue_dye": {
+		"minecraft:light_blue_dye": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -128,7 +128,7 @@
         ]
       }
     },
-		"get_blue_dye": {
+		"minecraft:blue_dye": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -138,7 +138,7 @@
         ]
       }
     },
-		"get_purple_dye": {
+		"minecraft:purple_dye": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -148,7 +148,7 @@
         ]
       }
     },
-		"get_magenta_dye": {
+		"minecraft:magenta_dye": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -158,7 +158,7 @@
         ]
       }
     },
-		"get_pink_dye": {
+		"minecraft:pink_dye": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -170,21 +170,21 @@
     }
   },
   "requirements": [
-		["get_white_dye"],
-		["get_light_gray_dye"],
-		["get_gray_dye"],
-		["get_black_dye"],
-		["get_brown_dye"],
-		["get_red_dye"],
-		["get_orange_dye"],
-		["get_yellow_dye"],
-		["get_lime_dye"],
-		["get_green_dye"],
-		["get_cyan_dye"],
-		["get_light_blue_dye"],
-		["get_blue_dye"],
-		["get_purple_dye"],
-		["get_magenta_dye"],
-		["get_pink_dye"]
+		["minecraft:white_dye"],
+		["minecraft:light_gray_dye"],
+		["minecraft:gray_dye"],
+		["minecraft:black_dye"],
+		["minecraft:brown_dye"],
+		["minecraft:red_dye"],
+		["minecraft:orange_dye"],
+		["minecraft:yellow_dye"],
+		["minecraft:lime_dye"],
+		["minecraft:green_dye"],
+		["minecraft:cyan_dye"],
+		["minecraft:light_blue_dye"],
+		["minecraft:blue_dye"],
+		["minecraft:purple_dye"],
+		["minecraft:magenta_dye"],
+		["minecraft:pink_dye"]
   ]
 }
