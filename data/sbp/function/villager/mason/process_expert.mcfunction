@@ -1,4 +1,3 @@
-say processing expert mason...
 tag @s add processed_expert
 
 ## set first trade
