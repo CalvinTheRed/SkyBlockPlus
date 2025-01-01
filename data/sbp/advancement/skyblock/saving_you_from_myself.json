@@ -3,6 +3,7 @@
     "icon": {
       "id": "minecraft:ominous_bottle"
     },
+		"frame": "goal",
     "title": "Saving You From Myself",
     "description": "Beat a raid that you started"
   },

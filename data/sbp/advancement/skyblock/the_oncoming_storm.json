@@ -3,6 +3,7 @@
     "icon": {
       "id": "minecraft:heavy_core"
     },
+		"frame": "challenge",
     "title": "The Oncoming Storm",
     "description": "Slay a breeze during a storm and acquire a heavy core"
   },

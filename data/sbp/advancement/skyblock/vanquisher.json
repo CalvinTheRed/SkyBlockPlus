@@ -3,8 +3,10 @@
     "icon": {
       "id": "minecraft:wooden_sword"
     },
+		"frame": "goal",
     "title": "Vanquisher",
     "description": "Kill something"
+
   },
   "parent": "sbp:skyblock/root",
   "criteria": {

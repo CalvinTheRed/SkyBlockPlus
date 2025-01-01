@@ -3,6 +3,7 @@
     "icon": {
       "id": "minecraft:acacia_log"
     },
+		"frame": "goal",
     "title": "Step One",
     "description": "There isn't much else to do"
   },

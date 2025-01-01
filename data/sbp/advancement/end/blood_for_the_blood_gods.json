@@ -3,6 +3,7 @@
     "icon": {
       "id": "minecraft:diamond_sword"
     },
+		"frame": "challenge",
 		"title": "Blood For The Blood Gods",
 		"description": "Kill one of every mob, even if it is friendly"
   },

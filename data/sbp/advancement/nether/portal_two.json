@@ -21,6 +21,7 @@
   "display": {
     "announce_to_chat": true,
     "description": "Travel to the end",
+		"frame": "goal",
     "icon": {
       "id": "minecraft:end_portal_frame"
     },

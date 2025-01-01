@@ -3,6 +3,7 @@
     "icon": {
       "id": "minecraft:water_bucket"
     },
+		"frame": "goal",
     "title": "Bless The Rains",
     "description": "Collect water from a cauldron"
   },

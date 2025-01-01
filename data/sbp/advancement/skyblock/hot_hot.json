@@ -3,6 +3,7 @@
     "icon": {
       "id": "minecraft:lava_bucket"
     },
+		"frame": "goal",
     "title": "Hot, Hot!",
     "description": "Receive a lava bucket as a gift from a toolsmith"
   },

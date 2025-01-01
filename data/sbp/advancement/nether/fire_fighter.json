@@ -3,6 +3,7 @@
     "icon": {
       "id": "minecraft:blaze_rod"
     },
+		"frame": "goal",
     "title": "Fire Fighter",
     "description": "Travel to a nether fortress and kill a blaze"
   },

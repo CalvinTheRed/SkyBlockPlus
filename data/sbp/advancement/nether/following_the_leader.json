@@ -3,6 +3,7 @@
     "icon": {
       "id": "minecraft:ender_eye"
     },
+		"frame": "goal",
     "title": "Following The Leader",
     "description": "Chase an ender eye towards an end portal"
   },

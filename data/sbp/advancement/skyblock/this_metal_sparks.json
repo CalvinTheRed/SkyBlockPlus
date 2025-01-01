@@ -3,6 +3,7 @@
     "icon": {
       "id": "minecraft:copper_ingot"
     },
+		"frame": "goal",
     "title": "This Metal Sparks!",
     "description": "Collect copper from a drowned"
   },

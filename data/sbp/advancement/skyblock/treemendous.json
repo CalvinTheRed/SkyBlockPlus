@@ -3,6 +3,7 @@
     "icon": {
       "id": "minecraft:acacia_sapling"
     },
+		"frame": "goal",
     "title": "Treemendous",
     "description": "Plant a sapling"
   },

@@ -3,6 +3,7 @@
     "icon": {
       "id": "minecraft:oak_sapling"
     },
+		"frame": "goal",
     "title": "It's Oakay Now",
     "description": "Buy some oak saplings from a wandering trader"
   },

@@ -3,6 +3,7 @@
     "icon": {
       "id": "minecraft:heart_of_the_sea"
     },
+		"frame": "challenge",
     "title": "Heart of the Storm",
     "description": "Kill a drowned during a storm and get a heart of the sea"
   },

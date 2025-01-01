@@ -3,6 +3,7 @@
     "icon": {
       "id": "minecraft:gold_nugget"
     },
+		"frame": "goal",
     "title": "A Necessary Sacrifice",
     "description": "Strike a pig with lightning... and then kill it"
   },

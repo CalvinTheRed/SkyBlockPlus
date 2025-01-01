@@ -3,6 +3,7 @@
     "icon": {
       "id": "minecraft:emerald"
     },
+		"frame": "goal",
     "title": "Green Deal",
     "description": "Get an emerald from a fox"
   },

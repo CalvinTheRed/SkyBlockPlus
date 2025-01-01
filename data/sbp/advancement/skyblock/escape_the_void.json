@@ -21,6 +21,7 @@
   "display": {
     "announce_to_chat": true,
     "description": "Light and enter a nether portal",
+		"frame": "goal",
     "icon": {
       "count": 1,
       "id": "minecraft:obsidian"

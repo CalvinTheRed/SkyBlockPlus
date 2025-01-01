@@ -3,6 +3,7 @@
     "icon": {
       "id": "minecraft:elytra"
     },
+		"frame": "challenge",
     "title": "Look Ma, I'm Flying!",
     "description": "Kill a Phantom in the end to get an elytra"
   },
