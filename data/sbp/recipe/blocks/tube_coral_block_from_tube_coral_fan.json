@@ -8,9 +8,7 @@
 		"XXX"
   ],
   "key": {
-    "X": {
-      "item": "minecraft:tube_coral_fan"
-    }
+    "X": "minecraft:tube_coral_fan"
   },
   "result": {
     "id": "minecraft:tube_coral_block",

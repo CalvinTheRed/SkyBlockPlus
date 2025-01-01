@@ -7,9 +7,7 @@
     "XX"
   ],
   "key": {
-    "X": {
-      "item": "minecraft:bubble_coral"
-    }
+    "X": "minecraft:bubble_coral"
   },
   "result": {
     "id": "minecraft:bubble_coral_block",

@@ -6,12 +6,8 @@
     "N"
   ],
   "key": {
-    "F": {
-      "item": "minecraft:crimson_fungus"
-    },
-    "N": {
-      "item": "minecraft:netherrack"
-    }
+    "F": "minecraft:crimson_fungus",
+    "N": "minecraft:netherrack"
   },
   "result": {
     "id": "minecraft:crimson_nylium",

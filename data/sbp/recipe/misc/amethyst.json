@@ -1,17 +1,13 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    " 1 ",
-    "121",
-    " 1 "
+    " P ",
+    "PQP",
+    " P "
   ],
   "key": {
-    "1": {
-      "item": "minecraft:purple_dye"
-    },
-    "2": {
-      "item": "minecraft:quartz"
-    }
+    "P": "minecraft:purple_dye",
+    "Q": "minecraft:quartz"
   },
   "result": {
     "id": "minecraft:amethyst_shard",

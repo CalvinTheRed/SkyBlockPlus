@@ -6,12 +6,8 @@
     "N"
   ],
   "key": {
-    "F": {
-      "item": "minecraft:warped_fungus"
-    },
-    "N": {
-      "item": "minecraft:netherrack"
-    }
+    "F": "minecraft:warped_fungus",
+    "N": "minecraft:netherrack"
   },
   "result": {
     "id": "minecraft:warped_nylium",

@@ -7,9 +7,7 @@
     "XX"
   ],
   "key": {
-    "X": {
-      "item": "minecraft:brain_coral"
-    }
+    "X": "minecraft:brain_coral"
   },
   "result": {
     "id": "minecraft:brain_coral_block",
