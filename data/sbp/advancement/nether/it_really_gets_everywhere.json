@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:red_sand"
+    },
+    "title": "It REALLY Gets Everywhere",
+    "description": "Bring a husk to the nether and kill it to collect red sand"
+  },
+  "parent": "sbp:nether/root",
+  "criteria": {
+    "minecraft:red_sand": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:red_sand"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "minecraft:red_sand"
+    ]
+  ]
+}

@@ -6,7 +6,7 @@
 		"title": "Blood For The Blood Gods",
 		"description": "Kill one of every mob, even if it is friendly"
   },
-	"parent": "sbp:skyblock/digging_up_trouble",
+	"parent": "sbp:end/root",
   "criteria": {
     "minecraft:blaze": {
       "conditions": {

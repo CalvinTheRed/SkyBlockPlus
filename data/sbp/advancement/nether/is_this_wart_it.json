@@ -3,7 +3,7 @@
     "icon": {
       "id": "minecraft:nether_wart"
     },
-    "title": "Is This Infectuous?",
+    "title": "Is This Wart It?",
     "description": "Harvest nether wart from some nether wart blocks"
   },
   "parent": "sbp:nether/smells_like_home",
