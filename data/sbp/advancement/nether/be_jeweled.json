@@ -1,5 +1,5 @@
 {
-  "parent": "sbp:nether/let_it_cook",
+  "parent": "sbp:nether/crushing_it",
   "criteria": {
     "diamond_armor": {
       "conditions": {

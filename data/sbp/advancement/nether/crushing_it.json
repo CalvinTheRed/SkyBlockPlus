@@ -3,8 +3,8 @@
     "icon": {
       "id": "minecraft:diamond"
     },
-    "title": "Let It Cook",
-    "description": "Cook a coal block in a blast furnace... for a long time"
+    "title": "Crushing It",
+    "description": "Crush a Wither Skeleton with a Mace"
   },
   "parent": "sbp:nether/not_coal_bro",
   "criteria": {
