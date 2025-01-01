@@ -4,9 +4,9 @@
       "id": "minecraft:ancient_debris"
     },
     "title": "One Man's Trash",
-    "description": "Let a Sniffer dig up ancient debris"
+    "description": "Sniff out some Ancient Debris from Netherrack in the Nether"
   },
-  "parent": "sbp:nether/smells_like_home",
+  "parent": "sbp:nether/kill_it_with_fire",
   "criteria": {
     "get_ancient_debris": {
       "trigger": "minecraft:inventory_changed",

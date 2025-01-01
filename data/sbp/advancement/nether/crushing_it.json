@@ -4,7 +4,7 @@
       "id": "minecraft:diamond"
     },
     "title": "Crushing It",
-    "description": "Crush a Wither Skeleton with a Mace"
+    "description": "Crush a Wither Skeleton with a Mace until one drops a Diamond"
   },
   "parent": "sbp:nether/not_coal_bro",
   "criteria": {
