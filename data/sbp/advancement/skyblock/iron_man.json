@@ -1,0 +1,58 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_chestplate"
+    },
+    "title": "Iron Man",
+    "description": "Get a full suit of iron armor"
+  },
+  "parent": "sbp:skyblock/witch_doctor",
+  "criteria": {
+    "get_iron_helmet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_helmet"
+          }
+        ]
+      }
+    },
+		"get_iron_chestplate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_chestplate"
+          }
+        ]
+      }
+    },
+		"get_iron_leggings": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_leggings"
+          }
+        ]
+      }
+    },
+		"get_iron_boots": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_boots"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["get_iron_helmet"],
+		["get_iron_chestplate"],
+		["get_iron_leggings"],
+		["get_iron_boots"]
+  ]
+}

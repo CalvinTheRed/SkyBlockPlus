@@ -1,0 +1,146 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_log"
+    },
+    "title": "Wood You, Could You?",
+    "description": "Collect all wood types"
+  },
+  "parent": "sbp:skyblock/green_deal",
+  "criteria": {
+    "minecraft:oak_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:oak_log"
+          }
+        ]
+      }
+    },
+		"minecraft:dark_oak_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:dark_oak_log"
+          }
+        ]
+      }
+    },
+		"minecraft:pale_oak_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:pale_oak_log"
+          }
+        ]
+      }
+    },
+		"minecraft:acacia_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:acacia_log"
+          }
+        ]
+      }
+    },
+		"minecraft:jungle_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:jungle_log"
+          }
+        ]
+      }
+    },
+		"minecraft:spruce_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:spruce_log"
+          }
+        ]
+      }
+    },
+		"minecraft:cherry_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cherry_log"
+          }
+        ]
+      }
+    },
+		"minecraft:birch_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:birch_log"
+          }
+        ]
+      }
+    },
+		"minecraft:mangrove_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:mangrove_log"
+          }
+        ]
+      }
+    },
+		"minecraft:bamboo_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:bamboo_block"
+          }
+        ]
+      }
+    },
+		"minecraft:crimson_stem": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:crimson_stem"
+          }
+        ]
+      }
+    },
+		"minecraft:warped_stem": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:warped_stem"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+		["minecraft:oak_log"],
+		["minecraft:dark_oak_log"],
+		["minecraft:pale_oak_log"],
+		["minecraft:acacia_log"],
+		["minecraft:jungle_log"],
+		["minecraft:spruce_log"],
+		["minecraft:cherry_log"],
+		["minecraft:birch_log"],
+		["minecraft:mangrove_log"],
+		["minecraft:bamboo_block"],
+		["minecraft:crimson_stem"],
+		["minecraft:warped_stem"]
+  ]
+}

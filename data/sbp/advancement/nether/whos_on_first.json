@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:pitcher_pod"
+    },
+    "title": "Who's On First?",
+    "description": "Sniff up a Pitcher Pod from Warped Nylium"
+  },
+  "parent": "sbp:nether/warped_personality",
+  "criteria": {
+    "minecraft:pitcher_pod": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:pitcher_pod"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["minecraft:pitcher_pod"]
+  ]
+}

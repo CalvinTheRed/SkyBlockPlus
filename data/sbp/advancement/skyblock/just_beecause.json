@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:honey_bottle"
+    },
+    "title": "Just Beecause",
+    "description": "Steal some honey from a bee"
+  },
+  "parent": "sbp:skyblock/its_oakay_now",
+  "criteria": {
+    "minecraft:honey_bottle": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:honey_bottle"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["minecraft:honey_bottle"]
+  ]
+}

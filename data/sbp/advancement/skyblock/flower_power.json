@@ -1,0 +1,256 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:lily_of_the_valley"
+    },
+    "title": "Flower Power",
+    "description": "Collect every type of flower"
+  },
+  "parent": "sbp:skyblock/uprooted",
+  "criteria": {
+    "minecraft:dandelion": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:dandelion"
+          }
+        ]
+      }
+    },
+		"minecraft:poppy": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:poppy"
+          }
+        ]
+      }
+    },
+		"minecraft:blue_orchid": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:blue_orchid"
+          }
+        ]
+      }
+    },
+		"minecraft:allium": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:allium"
+          }
+        ]
+      }
+    },
+		"minecraft:azure_bluet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:azure_bluet"
+          }
+        ]
+      }
+    },
+		"minecraft:red_tulip": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:red_tulip"
+          }
+        ]
+      }
+    },
+		"minecraft:orange_tulip": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:orange_tulip"
+          }
+        ]
+      }
+    },
+		"minecraft:white_tulip": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:white_tulip"
+          }
+        ]
+      }
+    },
+		"minecraft:pink_tulip": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:pink_tulip"
+          }
+        ]
+      }
+    },
+		"minecraft:oxeye_daisy": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:oxeye_daisy"
+          }
+        ]
+      }
+    },
+		"minecraft:cornflower": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cornflower"
+          }
+        ]
+      }
+    },
+		"minecraft:lily_of_the_valley": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:lily_of_the_valley"
+          }
+        ]
+      }
+    },
+		"minecraft:torchflower": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:torchflower"
+          }
+        ]
+      }
+    },
+		"minecraft:pitcher_plant": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:pitcher_plant"
+          }
+        ]
+      }
+    },
+		"minecraft:closed_eyeblossom": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:closed_eyeblossom"
+          }
+        ]
+      }
+    },
+		"minecraft:open_eyeblossom": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:open_eyeblossom"
+          }
+        ]
+      }
+    },
+		"minecraft:wither_rose": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wither_rose"
+          }
+        ]
+      }
+    },
+		"minecraft:pink_petals": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:pink_petals"
+          }
+        ]
+      }
+    },
+		"minecraft:sunflower": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:sunflower"
+          }
+        ]
+      }
+    },
+		"minecraft:lilac": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:lilac"
+          }
+        ]
+      }
+    },
+		"minecraft:rose_bush": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:rose_bush"
+          }
+        ]
+      }
+    },
+		"minecraft:peony": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:peony"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+		["minecraft:dandelion"],
+		["minecraft:poppy"],
+		["minecraft:blue_orchid"],
+		["minecraft:allium"],
+		["minecraft:azure_bluet"],
+		["minecraft:red_tulip"],
+		["minecraft:orange_tulip"],
+		["minecraft:white_tulip"],
+		["minecraft:pink_tulip"],
+		["minecraft:oxeye_daisy"],
+		["minecraft:cornflower"],
+		["minecraft:lily_of_the_valley"],
+		["minecraft:torchflower"],
+		["minecraft:pitcher_plant"],
+		["minecraft:closed_eyeblossom"],
+		["minecraft:open_eyeblossom"],
+		["minecraft:wither_rose"],
+		["minecraft:pink_petals"],
+		["minecraft:sunflower"],
+		["minecraft:lilac"],
+		["minecraft:rose_bush"],
+		["minecraft:peony"]
+  ]
+}

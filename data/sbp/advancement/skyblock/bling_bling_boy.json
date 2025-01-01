@@ -1,0 +1,58 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_chestplate"
+    },
+    "title": "Bling Bling Boy",
+    "description": "Get a full suit of golden armor"
+  },
+  "parent": "sbp:skyblock/vanquisher",
+  "criteria": {
+    "get_golden_helmet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_helmet"
+          }
+        ]
+      }
+    },
+		"get_golden_chestplate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_chestplate"
+          }
+        ]
+      }
+    },
+		"get_golden_leggings": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_leggings"
+          }
+        ]
+      }
+    },
+		"get_golden_boots": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_boots"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["get_golden_helmet"],
+		["get_golden_chestplate"],
+		["get_golden_leggings"],
+		["get_golden_boots"]
+  ]
+}

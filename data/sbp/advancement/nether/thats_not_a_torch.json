@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:torchflower_seeds"
+    },
+    "title": "That's Not A Torch",
+    "description": "Sniff up some Torchflower Seeds from Crimson Nylium"
+  },
+  "parent": "sbp:nether/a_fiery_fungus",
+  "criteria": {
+    "minecraft:torchflower_seeds": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:torchflower_seeds"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["minecraft:torchflower_seeds"]
+  ]
+}
