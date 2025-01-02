@@ -1,0 +1,2 @@
+### Grant the "Like A Dream" advancement
+execute as @a[predicate=sbp:riding_boat] at @s positioned ~ ~-2 ~ if entity @e[type=minecraft:ghast,distance=..2] run advancement grant @s only sbp:nether/like_a_dream

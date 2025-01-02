@@ -1,3 +1,4 @@
+function sbp:advancement/main
 function sbp:end_storm/main
 function sbp:lightning_conversion/main
 function sbp:scoreboard/main

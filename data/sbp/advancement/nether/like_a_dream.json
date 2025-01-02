@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:oak_boat"
+    },
+		"frame": "challenge",
+    "title": "Like A Dream",
+    "description": "Ride a boat atop a ghast"
+  },
+  "parent": "sbp:nether/root",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    ["impossible"]
+  ]
+}
