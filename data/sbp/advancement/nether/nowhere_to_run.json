@@ -1,0 +1,31 @@
+{
+  "parent": "sbp:nether/not_coal_bro",
+  "criteria": {
+    "summon_wither": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:wither"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:summoned_entity"
+    }
+  },
+  "display": {
+    "description": "Summon a wither",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:nether_star"
+    },
+    "title": "Nowhere To Run"
+  },
+  "requirements": [
+    ["summon_wither"]
+  ],
+  "sends_telemetry_event": true
+}

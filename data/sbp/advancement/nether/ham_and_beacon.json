@@ -1,0 +1,27 @@
+{
+	"display": {
+    "description": "Fully power a beacon while riding a pig",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:beacon"
+    },
+    "title": "Ham And Beacon"
+  },
+  "parent": "sbp:nether/nowhere_to_run",
+  "criteria": {
+    "light_beacon_on_pig": {
+      "trigger": "minecraft:construct_beacon",
+      "conditions": {
+        "player": {
+          "vehicle": {
+            "type": "minecraft:pig"
+          }
+        },
+        "level": 4
+      }
+    }
+  },
+  "requirements": [
+    ["light_beacon_on_pig"]
+  ]
+}
