@@ -1,0 +1,14 @@
+{
+  "parent": "sbp:trigger/root",
+  "criteria": {
+    "minecraft:tick": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "requirements": [
+		["minecraft:tick"]
+	],
+  "rewards": {
+    "function": "sbp:trigger/info"
+  }
+}
