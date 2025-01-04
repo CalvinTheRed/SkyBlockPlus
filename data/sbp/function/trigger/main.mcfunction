@@ -1,7 +1,9 @@
 function sbp:trigger/enable_triggers
 
-### check for any players waiting on locate responses from last cycle
+### check for any players waiting on locate biome responses from last cycle
 execute as @a[tag=searching_for_biome] at @s run function sbp:trigger/biome/report/main
+### check for any players waiting on locate structure responses from last cycle
+execute as @a[tag=searching_for_structure] at @s run function sbp:trigger/structure/report/main
 
 execute as @a[scores={findbiome_badlands=1..}] at @s at @s run function sbp:trigger/biome/badlands
 execute as @a[scores={findbiome_bamboo_jungle=1..}] at @s at @s run function sbp:trigger/biome/bamboo_jungle
@@ -68,11 +70,11 @@ execute as @a[scores={findbiome_windswept_hills=1..}] at @s run function sbp:tri
 execute as @a[scores={findbiome_windswept_savanna=1..}] at @s run function sbp:trigger/biome/windswept_savanna
 execute as @a[scores={findbiome_wooded_badlands=1..}] at @s run function sbp:trigger/biome/wooded_badlands
 
-#execute as @a[scores={findstructure_ancient_city=1..}] at @s run function sbp:trigger/structure/ancient_city
-#execute as @a[scores={findstructure_bastion_remnant=1..}] at @s run function sbp:trigger/structure/bastion_remnant
-#execute as @a[scores={findstructure_end_city=1..}] at @s run function sbp:trigger/structure/end_city
-#execute as @a[scores={findstructure_fortress=1..}] at @s run function sbp:trigger/structure/fortress
-#execute as @a[scores={findstructure_monument=1..}] at @s run function sbp:trigger/structure/monument
-#execute as @a[scores={findstructure_pillager_outpost=1..}] at @s run function sbp:trigger/structure/pillager_outpost
-#execute as @a[scores={findstructure_stronghold=1..}] at @s run function sbp:trigger/structure/stronghold
-#execute as @a[scores={findstructure_swamp_hut=1..}] at @s run function sbp:trigger/structure/swamp_hut
+execute as @a[scores={findstructure_ancient_city=1..}] at @s run function sbp:trigger/structure/ancient_city
+execute as @a[scores={findstructure_bastion_remnant=1..}] at @s run function sbp:trigger/structure/bastion_remnant
+execute as @a[scores={findstructure_end_city=1..}] at @s run function sbp:trigger/structure/end_city
+execute as @a[scores={findstructure_fortress=1..}] at @s run function sbp:trigger/structure/fortress
+execute as @a[scores={findstructure_monument=1..}] at @s run function sbp:trigger/structure/monument
+execute as @a[scores={findstructure_pillager_outpost=1..}] at @s run function sbp:trigger/structure/pillager_outpost
+execute as @a[scores={findstructure_stronghold=1..}] at @s run function sbp:trigger/structure/stronghold
+execute as @a[scores={findstructure_swamp_hut=1..}] at @s run function sbp:trigger/structure/swamp_hut

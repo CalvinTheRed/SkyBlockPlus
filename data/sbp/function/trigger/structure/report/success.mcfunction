@@ -1,0 +1,1 @@
+tellraw @s [{"text":"Structure located at [","color":"gray"},{"storage":"stringparser:data","nbt":"output.x","color":"green"},{"text":" ~ ","color":"green"},{"storage":"stringparser:data","nbt":"output.z","color":"green"},{"text":"] (","color":"gray"},{"storage":"stringparser:data","nbt":"output.distance","color":"gray"},{"text":" blocks)","color":"gray"}]
