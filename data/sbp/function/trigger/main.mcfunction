@@ -1,4 +1,5 @@
 function sbp:trigger/enable_triggers
+execute as @a[scores={left_world=1..}] run function sbp:advancement/revoke/trigger/display_trigger_info
 
 ### check for any players waiting on locate biome responses from last cycle
 execute as @a[tag=searching_for_biome] at @s run function sbp:trigger/biome/report/main
