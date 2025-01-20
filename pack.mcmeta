@@ -1,6 +1,6 @@
 {
 	"pack": {
-		"pack_format": 48,
-		"description": "Datapack for Skyblock Plus."
+		"pack_format": 61,
+		"description": "SkyBlock Plus datapack. Some features of this datapack are reliant upon the StringParser datapack. (https://github.com/CalvinTheRed/StringParser)"
 	}
 }
