@@ -1,2 +1,2 @@
-summon minecraft:cave_spider ~ ~ ~ {active_effects:[{duration:-1,id:"minecraft:weaving"}]}
+summon minecraft:cave_spider ~ ~ ~
 tp @s ~ -255 ~

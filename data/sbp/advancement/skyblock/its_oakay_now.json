@@ -5,7 +5,7 @@
     },
 		"frame": "goal",
     "title": "It's Oakay Now",
-    "description": "Buy some oak saplings from a wandering trader"
+    "description": "Buy some oak or dark oak saplings from a wandering trader"
   },
   "parent": "sbp:skyblock/green_deal",
   "criteria": {

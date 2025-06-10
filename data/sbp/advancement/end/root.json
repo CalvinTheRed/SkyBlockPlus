@@ -19,7 +19,7 @@
   },
   "display": {
     "announce_to_chat": false,
-    "background": "minecraft:textures/block/purple_terracotta.png",
+    "background": "minecraft:block/purple_terracotta",
     "description": "Yeah, you should have seen this coming",
     "icon": {
       "id": "minecraft:end_stone"

@@ -1,0 +1,67 @@
+{
+  "parent": "sbp:skyblock/resonance",
+	"display": {
+    "icon": {
+      "id": "minecraft:enchanted_book",
+      "components": {
+        "minecraft:enchantment_glint_override": true
+      }
+    },
+    "title": "Fleet of Foot",
+    "description": "Craft a book enchanted with Swift Sneak"
+  },
+  "criteria": {
+    "swift_sneak_1": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:enchanted_book",
+            "components": {
+              "minecraft:enchantments": {
+                "minecraft:swift_sneak": 1
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+		"swift_sneak_2": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:enchanted_book",
+            "components": {
+              "minecraft:enchantments": {
+                "minecraft:swift_sneak": 2
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+		"swift_sneak_3": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:enchanted_book",
+            "components": {
+              "minecraft:enchantments": {
+                "minecraft:swift_sneak": 3
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "swift_sneak_1",
+			"swift_sneak_2",
+			"swift_sneak_3"
+    ]
+  ]
+}

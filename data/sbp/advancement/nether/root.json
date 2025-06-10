@@ -19,7 +19,7 @@
   },
   "display": {
     "announce_to_chat": false,
-    "background": "minecraft:textures/block/soul_soil.png",
+    "background": "minecraft:block/soul_soil",
     "description": "All that, for another void?",
     "icon": {
       "count": 1,

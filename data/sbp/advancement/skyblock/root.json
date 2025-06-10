@@ -19,7 +19,7 @@
   },
   "display": {
     "announce_to_chat": false,
-    "background": "minecraft:textures/block/mushroom_stem.png",
+    "background": "minecraft:block/mushroom_stem",
     "description": "Woah, that's a lot of... nothing",
     "icon": {
       "count": 1,

@@ -227,6 +227,26 @@
           }
         ]
       }
+    },
+		"minecraft:wildflowers": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wildflowers"
+          }
+        ]
+      }
+    },
+		"minecraft:cactus_flower": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cactus_flower"
+          }
+        ]
+      }
     }
   },
   "requirements": [
@@ -251,6 +271,8 @@
 		["minecraft:sunflower"],
 		["minecraft:lilac"],
 		["minecraft:rose_bush"],
-		["minecraft:peony"]
+		["minecraft:peony"],
+		["minecraft:wildflowers"],
+		["minecraft:cactus_flower"]
   ]
 }

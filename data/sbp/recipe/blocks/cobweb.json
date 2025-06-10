@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "blocks",
+  "pattern": [
+    " S ",
+    "SBS",
+		" S "
+  ],
+  "key": {
+    "S": "minecraft:string",
+    "B": "minecraft:slime_ball"
+  },
+  "result": {
+    "id": "minecraft:cobweb",
+    "count": 2
+  }
+}
