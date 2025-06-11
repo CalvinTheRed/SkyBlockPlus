@@ -14,7 +14,7 @@
   "result": {
     "id": "minecraft:enchanted_book",
 		"components": {
-      "minecraft:enchantments": {
+      "minecraft:stored_enchantments": {
         "minecraft:swift_sneak": 2
       }
     },
