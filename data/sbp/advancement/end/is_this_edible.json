@@ -4,6 +4,7 @@
       "id": "minecraft:dragon_egg"
     },
     "title": "Is This Edible?",
+		"frame": "goal",
     "description": "Slay the ender dragon and collect its egg"
   },
   "parent": "sbp:end/root",

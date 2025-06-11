@@ -869,6 +869,69 @@
               }
             }
           ]
+        },
+				{
+          "type": "minecraft:item",
+          "name": "minecraft:chorus_flower",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "offsetX": 0,
+              "offsetY": -1,
+              "offsetZ": 0,
+              "predicate": {
+                "dimension": "minecraft:the_end",
+                "block": {
+                  "blocks": [
+                    "minecraft:end_stone"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+				{
+          "type": "minecraft:item",
+          "name": "minecraft:chorus_fruit",
+          "weight": 10,
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "offsetX": 0,
+              "offsetY": -1,
+              "offsetZ": 0,
+              "predicate": {
+                "dimension": "minecraft:the_end",
+                "block": {
+                  "blocks": [
+                    "minecraft:end_stone"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+				{
+          "type": "minecraft:item",
+          "name": "minecraft:popped_chorus_fruit",
+          "weight": 5,
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "offsetX": 0,
+              "offsetY": -1,
+              "offsetZ": 0,
+              "predicate": {
+                "dimension": "minecraft:the_end",
+                "block": {
+                  "blocks": [
+                    "minecraft:end_stone"
+                  ]
+                }
+              }
+            }
+          ]
         }
       ],
       "rolls": 1

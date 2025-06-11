@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:chorus_flower"
+    },
+    "title": "That's No Flower",
+    "description": "Sniff up a chorus flower from some end stone in the End"
+  },
+  "parent": "sbp:end/theyre_flying_now",
+  "criteria": {
+    "minecraft:chorus_flower": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:chorus_flower"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["minecraft:chorus_flower"]
+  ]
+}
