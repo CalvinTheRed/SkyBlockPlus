@@ -1,6 +1,7 @@
 {
 	"display": {
     "description": "Fully power a beacon while riding a pig",
+		"frame": "challenge",
     "icon": {
       "count": 1,
       "id": "minecraft:beacon"
