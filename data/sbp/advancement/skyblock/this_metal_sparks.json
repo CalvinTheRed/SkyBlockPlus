@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:raw_copper"
+      "id": "minecraft:copper_ingot"
     },
 		"frame": "goal",
     "title": "This Metal Sparks!",
@@ -9,18 +9,18 @@
   },
   "parent": "sbp:skyblock/bless_the_rains",
   "criteria": {
-    "minecraft:raw_copper": {
+    "minecraft:copper_ingot": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "minecraft:raw_copper"
+            "items": "minecraft:copper_ingot"
           }
         ]
       }
     }
   },
   "requirements": [
-    ["minecraft:raw_copper"]
+    ["minecraft:copper_ingot"]
   ]
 }
