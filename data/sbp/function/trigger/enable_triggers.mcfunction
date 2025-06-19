@@ -15,7 +15,7 @@ scoreboard players enable @a findbiome_deep_ocean
 scoreboard players enable @a findbiome_desert
 scoreboard players enable @a findbiome_dripstone_caves
 scoreboard players enable @a findbiome_end_barrens
-scoreboard players enable @a findbiome_end_highland
+scoreboard players enable @a findbiome_end_highlands
 scoreboard players enable @a findbiome_end_midlands
 scoreboard players enable @a findbiome_eroded_badlands
 scoreboard players enable @a findbiome_flower_forest
