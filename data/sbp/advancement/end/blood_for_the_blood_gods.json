@@ -751,6 +751,20 @@
       },
       "trigger": "minecraft:player_killed_entity"
     },
+		"minecraft:happy_ghast": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:happy_ghast"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:player_killed_entity"
+    },
 		"minecraft:horse": {
       "conditions": {
         "entity": [
@@ -1171,6 +1185,7 @@
     ["minecraft:glow_squid"],
     ["minecraft:goat"],
     ["minecraft:horse"],
+		["minecraft:happy_ghast"],
     ["minecraft:iron_golem"],
     ["minecraft:llama"],
     ["minecraft:mooshroom"],
