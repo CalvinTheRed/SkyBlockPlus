@@ -4,9 +4,9 @@
       "id": "minecraft:mycelium"
     },
     "title": "That's MY Celium!",
-    "description": "Craft some mycelium"
+    "description": "Buy some mycelium from a wandering trader"
   },
-  "parent": "sbp:skyblock/uprooted",
+  "parent": "sbp:skyblock/green_deal",
   "criteria": {
     "minecraft:mycelium": {
       "trigger": "minecraft:inventory_changed",
