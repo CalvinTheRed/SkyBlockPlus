@@ -1,6 +1,96 @@
 # SkyBlockPlus
-Welcome to SkyBlockPlus! This project was inspired by the 1.19 Skyblock YouTube series published by Ilmango, and aims to recreate that experience for Minecraft 1.21 without strictly requiring the use of any mods.
+Welcome to SkyBlockPlus! This project was inspired by the 1.19 Skyblock YouTube series published by Ilmango, and aims to recreate that experience for modern Minecraft without strictly requiring the use of any mods.
 
-Add this datapack to a new world during world creation, and watch the magic happen. You should be spawned on a starter island featuring a flat grass platform and a single acacia tree in an empty world. Refer to the custom advancement menu(s) for guidance on how to progress through the datapack's custom features.
+Add this datapack to a new world during world creation, and watch the magic happen. You will be spawned on a starter island featuring a flat grass platform and a single acacia tree in a random biome in an empty world. Refer to the custom advancement menu(s) for guidance on how to progress through the datapack's custom features, or consult the changes listed below to see what is new!
 
-This datapack does not provide any special method for locating structures or biomes. As such, it is recommended to enable cheats in your world in order to use `/locate` to find structures and biomes, and to play using the MiniHUD mod to be able to visualize those structures and biomes.
+This datapack offers a custom set of `/trigger` commands to ease the process of locating key biomes and structures without having to enable commands in your world! **Note that if this datapack is run on a server, command blocks must be enabled for these triggers to work.**
+
+## Changes
+
+### Loot Tables
+
+**Nether Wart Block.** Now drops nether wart with the same distribution that a melon block drops melon.
+
+**Bat.** Now drops an echo shard if killed by a warden's sonic blast attack.
+
+**Breeze.** Now has a small chance of dropping a heavy core if killed by a player during a thunder storm. If this occurs, the weather will be cleared.
+
+**Dolphin.** Now drops an echo shard if killed by a warden's sonic blast attack.
+
+**Drowned.** Now has a small chance of dropping a heart of the sea if killed by a player during a thunder storm. If this occurs, the weather will be cleared. Also has a 50% chance to drop raw copper ore instead of a copper ingot when killed by a player.
+
+**Elder Guardian.** No longer drops a smithing template when killed.
+
+**Husk.** Now drops sand instead of rotten flesh (or red sand if killed in the nether).
+
+**Iron Golem.** Now drops raw iron ore instead of iron ingots.**
+
+**Phantom.** Now drops an elytra if killed by a player in the end.
+
+**Silverfish.** Now drops cobbled deepslate on death, or tuff if killed by an explosion, or netherrack if killed with fire, or end stone if killed while levitating (listed in increasing priority of drop type).
+
+**Wither.** Now drops a netherite upgrade template.
+
+**Wither Skeleton.** Now has a small chance of dropping a diamond if killed by a smash attack using a mace.
+
+**Zombified Piglin.** Now drops raw gold ore instead of gold ingots.
+
+**Fishing (treasure).** Sniffer eggs are now a treasure item when fishing in a warm ocean biome.
+
+**Piglin Bartering.** Piglins no longer give dried ghasts when bartering. Piglins now have a chance to give soul soil when bartering.
+
+**Sniffer Digging.** Sniffers now dig up wheat seeds or any flowers that would normally generate naturally in the biome where it is digging. It also has a chance of digging up special items under specific conditions: gold nugget (when digging in soul soil, netherrack, crimson nylium, or warped nylium in the nether), quartz (when digging in netherrack, crimson nylium, or warped nylium in the nether), ancient debris (when digging in netherrack, crimson nylium, or warped nylium in the nether), crimson fungus (when digging in soul soil or crimson nylium in a crimson forest biome), torchflower seeds (when digging in crimson nylium in a crimson forest biome), warped fungus (when digging in soul soil or warped nylium in a warped forest biome), pitcher pod (when digging in warped nylium in a warped forest biome), bone (when digging in soul soil in a soul sand valley biome), ghast tear (when digging in soul soil in a soul sand valley biome), magma cream (when digging in netherrack in a basalt deltas biome), resin clump (when digging in pale moss in a pale garden biome), chorus flower (when digging in end stone in the end), chorus fruit (when digging  in end stone in the end), or popped chorus fruit (when digging in end stone in the end).
+
+### Crafting
+
+**Calcite.** Now craftable using stone and bone meal.
+
+**Cobweb.** Now craftable using string and slimeballs.
+
+**Coral blocks.** Coral blocks are now craftable from the corresponding corals (2x2) or fans (3x3).
+
+**Crimson Nylium.** Now craftable using netherrack and crimson fungus.
+
+**Netherite Upgrade Template.** This crafting recipe is now disabled.
+
+**Warped Nylium.** Now craftable using netherrack and warped fungus.
+
+**Diamond Horse Armor.** Now smithable using leather horse armor and 2 diamonds.
+
+**Golden Horse Armor.** Now smithable using leather horse armor and 2 gold ingots.
+
+**Iron Horse Armor.** Now smithable using leather horse armor and 2 iron ingots.
+
+**Amethyst.** Now craftable using quartz and purple dye.
+
+**Amethyst Buds & Clusters.** Now craftable using amethyst.
+
+**Enchanted Book (Swift Sneak I-III).** Now craftable using books, feathers, and echo shards.
+
+**Enchanted Book (Wind Charge I-III).** Now craftable using books, gunpowder, and wind charges.
+
+### Trades
+
+**Wandering Trader.** Now offers an additional trade, selling sweet berries, glow berries, dead bushes, or enchanted golden apples. Also replaces podzol trades with mycelium trades.
+
+**Mason.** Now offers a random pottery sherd as an expert trade.
+
+**Armorer.** Now replicate the trades from the experimental villager trade rebalance.
+
+### Mob Spawning
+
+**Breeze.** Now occasionally spawn in any windswept biome.
+
+**Piglin Brute.** Now occasionally spawns in bastions.
+
+**Allay.** Now crreated when a goat horn is used near a vex.
+
+**Elder Guardians.** Now created when a guardian is struck by lightning.
+
+### Mob Behavior
+
+**Witch.** Witches now have a 20% chance to replace any thrown potion with a splash potion of infestation.
+
+### Structures
+
+The only structures which generate in this datapack are ancient cities, bastions, end cities, nether fortresses, ocean monuments, pillager outposts, end strongholds, and swamp huts.
