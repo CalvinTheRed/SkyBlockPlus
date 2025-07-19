@@ -6,7 +6,7 @@
     "title": "Iron Man",
     "description": "Get a full suit of iron armor"
   },
-  "parent": "sbp:skyblock/witch_doctor",
+  "parent": "sbp:skyblock/ooh_shiny",
   "criteria": {
     "iron_armor": {
       "conditions": {

@@ -6,7 +6,7 @@
     "title": "Flower Power",
     "description": "Collect every type of flower"
   },
-  "parent": "sbp:skyblock/uprooted",
+  "parent": "sbp:skyblock/welcome_to_the_new_age",
   "criteria": {
     "minecraft:dandelion": {
       "trigger": "minecraft:inventory_changed",
