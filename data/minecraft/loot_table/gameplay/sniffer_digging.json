@@ -170,10 +170,28 @@
                 "biomes": "minecraft:soul_sand_valley",
                 "block": {
                   "blocks": [
-                    "minecraft:soul_soil",
-                    "minecraft:netherrack",
-                    "minecraft:crimson_nylium",
-                    "minecraft:warped_nylium"
+                    "minecraft:soul_soil"
+                  ]
+                }
+              }
+            }
+          ]
+        },
+				{
+          "type": "minecraft:item",
+          "name": "minecraft:ghast_tear",
+          "weight": 50,
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "offsetX": 0,
+              "offsetY": -1,
+              "offsetZ": 0,
+              "predicate": {
+                "biomes": "minecraft:soul_sand_valley",
+                "block": {
+                  "blocks": [
+                    "minecraft:soul_soil"
                   ]
                 }
               }
@@ -194,10 +212,7 @@
                 "biomes": "minecraft:basalt_deltas",
                 "block": {
                   "blocks": [
-                    "minecraft:soul_soil",
-                    "minecraft:netherrack",
-                    "minecraft:crimson_nylium",
-                    "minecraft:warped_nylium"
+                    "minecraft:netherrack"
                   ]
                 }
               }
