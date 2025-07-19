@@ -1,0 +1,1 @@
+execute as @e[type=minecraft:splash_potion,tag=!witch_potion_conversion_checked] at @s run function sbp:witch_potion_conversion/check_thrower

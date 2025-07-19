@@ -13,3 +13,4 @@ tag @e remove uuid_recorded
 scoreboard players set #cave_spider_swap_chance constant 10
 scoreboard players set #heart_of_the_sea_chance constant 2
 scoreboard players set #vex_rally_delay constant 60
+scoreboard players set #witch_potion_conversion_infestation_chance constant 20

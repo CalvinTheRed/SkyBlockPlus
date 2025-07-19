@@ -7,4 +7,5 @@ function sbp:trigger/main
 function sbp:vex_conversion/main
 function sbp:villager/main
 function sbp:wandering_trader/main
+function sbp:witch_potion_conversion/main
 function sbp:worldgen/main
