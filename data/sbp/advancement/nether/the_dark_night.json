@@ -1,5 +1,5 @@
 {
-  "parent": "sbp:nether/one_mans_trash",
+  "parent": "sbp:nether/wither_did_that_come",
   "criteria": {
     "netherite_armor": {
       "conditions": {

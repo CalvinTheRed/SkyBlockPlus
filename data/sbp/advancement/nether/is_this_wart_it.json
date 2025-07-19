@@ -6,7 +6,7 @@
     "title": "Is This Wart It?",
     "description": "Harvest nether wart from some nether wart blocks"
   },
-  "parent": "sbp:nether/smells_like_home",
+  "parent": "sbp:nether/a_fiery_fungus",
   "criteria": {
     "minecraft:nether_wart": {
       "trigger": "minecraft:inventory_changed",

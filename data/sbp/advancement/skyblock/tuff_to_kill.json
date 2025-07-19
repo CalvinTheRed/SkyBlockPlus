@@ -6,7 +6,7 @@
     "title": "Tuff To Kill",
     "description": "Explode a silverfish to get tuff"
   },
-  "parent": "sbp:nether/that_cant_taste_good",
+  "parent": "sbp:skyblock/a_suspitchious_cocktail",
   "criteria": {
     "minecraft:tuff": {
       "trigger": "minecraft:inventory_changed",

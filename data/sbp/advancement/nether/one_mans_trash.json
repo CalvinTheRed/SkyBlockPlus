@@ -6,7 +6,7 @@
     "title": "One Man's Trash",
     "description": "Sniff out some ancient debris from netherrack in the nether"
   },
-  "parent": "sbp:nether/kill_it_with_fire",
+  "parent": "sbp:nether/root",
   "criteria": {
     "minecraft:ancient_debris": {
       "trigger": "minecraft:inventory_changed",

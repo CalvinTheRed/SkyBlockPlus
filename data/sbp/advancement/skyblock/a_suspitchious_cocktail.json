@@ -1,0 +1,32 @@
+{
+  "parent": "sbp:skyblock/root",
+  "criteria": {
+    "infested": {
+      "conditions": {
+        "effects": {
+          "minecraft:infested": {}
+        }
+      },
+      "trigger": "minecraft:effects_changed"
+    }
+  },
+  "display": {
+    "description": "Become infested by a witch",
+    "frame": "task",
+    "icon": {
+      "components": {
+        "minecraft:potion_contents": {
+          "potion": "minecraft:infested"
+        }
+      },
+      "count": 1,
+      "id": "minecraft:splash_potion"
+    },
+    "title": "A Suspitchious Cocktail"
+  },
+  "requirements": [
+    [
+      "infested"
+    ]
+  ]
+}

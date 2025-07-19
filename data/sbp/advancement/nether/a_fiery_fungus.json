@@ -6,7 +6,7 @@
     "title": "A Fiery Fungus",
     "description": "Craft a block of crimson nylium"
   },
-  "parent": "sbp:nether/kill_it_with_fire",
+  "parent": "sbp:nether/smells_like_home",
   "criteria": {
     "minecraft:crimson_nylium": {
       "trigger": "minecraft:inventory_changed",

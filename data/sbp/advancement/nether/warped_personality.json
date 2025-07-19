@@ -6,7 +6,7 @@
     "title": "Warped Personality",
     "description": "Craft a block of warped nylium"
   },
-  "parent": "sbp:nether/kill_it_with_fire",
+  "parent": "sbp:nether/smells_like_home",
   "criteria": {
     "minecraft:warped_nylium": {
       "trigger": "minecraft:inventory_changed",
