@@ -75,15 +75,15 @@ This datapack offers a custom set of `/trigger` commands to ease the process of 
 
 **Mason.** Now offers a random pottery sherd as an expert trade.
 
-**Armorer.** Now replicate the trades from the experimental villager trade rebalance.
+**Armorer.** Now replicate the trades from the experimental villager trade rebalance, and offer a trim based on biome/dimension where the armorer becomes a master: Flow (any windswept biome), Bolt (any winddswept biome), Shaper (any taiga biome), Host (any taiga biome), Wayfinder (any non-windswept savanna biome), Sentry (any plains biome), Rib (in the nether), Snout (in the nether), Vex (any non-windswept forest biome), Spire (in the end), Eye (in the end), Silence (deep dark), or Ward (deep dark).
 
 ### Mob Spawning
 
 **Breeze.** Now occasionally spawn in any windswept biome.
 
-**Piglin Brute.** Now occasionally spawns in bastions.
+**Piglin Brute.** Now spawn in bastions.
 
-**Allay.** Now crreated when a goat horn is used near a vex.
+**Allay.** Now created when a goat horn is used near a vex.
 
 **Elder Guardians.** Now created when a guardian is struck by lightning.
 
