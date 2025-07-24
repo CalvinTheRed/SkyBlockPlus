@@ -6,7 +6,7 @@
     "title": "Is This A Bug?",
     "description": "Kill a silverfish and acquire cobbled deepslate"
   },
-  "parent": "sbp:skyblock/a_suspitchious_cocktail",
+  "parent": "sbp:skyblock/a_suspwitchious_cocktail",
   "criteria": {
     "minecraft:cobbled_deepslate": {
       "trigger": "minecraft:inventory_changed",

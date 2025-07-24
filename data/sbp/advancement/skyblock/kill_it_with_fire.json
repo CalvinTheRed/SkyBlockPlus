@@ -6,7 +6,7 @@
     "title": "Kill It With Fire!",
     "description": "Kill a silverfish with fire and acquire netherrack"
   },
-  "parent": "sbp:skyblock/a_suspitchious_cocktail",
+  "parent": "sbp:skyblock/a_suspwitchious_cocktail",
   "criteria": {
     "minecraft:netherrack": {
       "trigger": "minecraft:inventory_changed",
