@@ -29,6 +29,10 @@ This datapack offers a custom set of `/trigger` commands to ease the process of 
 
 **Silverfish.** Now drops cobbled deepslate on death, or tuff if killed by an explosion, or netherrack if killed with fire, or end stone if killed while levitating (listed in increasing priority of drop type).
 
+**Villager Gift (Armorer).** Now has a chance to gift a bucket of lava to a player with the Hero of the Village effect.
+
+**Villager Gift (Librarian).** Changed weight of book gift to 4. Now has a chance to gift an enchanted book containing Swift Sneak (level randomly chosen from 1 to 3) to a player with the Hero of the Village effect if the librarian is in a deep dark biome.
+
 **Wither.** Now drops a netherite upgrade template.
 
 **Wither Skeleton.** Now has a small chance of dropping a diamond if killed by a smash attack using a mace.
