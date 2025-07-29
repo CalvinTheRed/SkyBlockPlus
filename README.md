@@ -69,6 +69,12 @@ This datapack offers a custom set of `/trigger` commands to ease the process of 
 
 **Enchanted Book (Wind Charge I-III).** Now craftable using books, gunpowder, and wind charges.
 
+### Tags
+
+**minecraft:stone_crafting_materials.** Now all references replaced with *sbp:stone_crafting_materials* to enforce use of cobblestone for crafting.
+
+**minecraft:stone_tool_materials.** Now all references replaced with *sbp:stone_tool_materials* to enforce use of cobblestone for crafting.
+
 ### Trades
 
 **Wandering Trader.** Now offers an additional trade, selling sweet berries, glow berries, dead bushes, or enchanted golden apples. Also replaces podzol trades with mycelium trades.
