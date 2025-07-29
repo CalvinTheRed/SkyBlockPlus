@@ -9,7 +9,7 @@ This datapack offers a custom set of `/trigger` commands to ease the process of 
 
 ### Loot Tables
 
-**Nether Wart Block.** Now drops nether wart with the same distribution that a melon block drops melon.
+**Nether Wart Block.** Now drops nether wart with the same distribution that a melon block drops melon, or a nether wart block if mined using a tool enchanted with Silk Touch.
 
 **Bat.** Now drops an echo shard if killed by a warden's sonic blast attack.
 
@@ -35,13 +35,19 @@ This datapack offers a custom set of `/trigger` commands to ease the process of 
 
 **Zombified Piglin.** Now drops raw gold ore instead of gold ingots.
 
-**Fishing (treasure).** Sniffer eggs are now a treasure item when fishing in a warm ocean biome.
+**Fishing (treasure).** Sniffer eggs are now a treasure item when fishing in a warm ocean biome, and enchanted books fished up from a windswept biome may now contain Wind Burst.
 
 **Piglin Bartering.** Piglins no longer give dried ghasts when bartering. Piglins now have a chance to give soul soil when bartering.
 
 **Sniffer Digging.** Sniffers now dig up wheat seeds or any flowers that would normally generate naturally in the biome where it is digging. It also has a chance of digging up special items under specific conditions: gold nugget (when digging in soul soil, netherrack, crimson nylium, or warped nylium in the nether), quartz (when digging in netherrack, crimson nylium, or warped nylium in the nether), ancient debris (when digging in netherrack, crimson nylium, or warped nylium in the nether), crimson fungus (when digging in soul soil or crimson nylium in a crimson forest biome), torchflower seeds (when digging in crimson nylium in a crimson forest biome), warped fungus (when digging in soul soil or warped nylium in a warped forest biome), pitcher pod (when digging in warped nylium in a warped forest biome), bone (when digging in soul soil in a soul sand valley biome), ghast tear (when digging in soul soil in a soul sand valley biome), magma cream (when digging in netherrack in a basalt deltas biome), resin clump (when digging in pale moss in a pale garden biome), chorus flower (when digging in end stone in the end), chorus fruit (when digging  in end stone in the end), or popped chorus fruit (when digging in end stone in the end).
 
 ### Crafting
+
+**Amethyst.** Now craftable using quartz and purple dye.
+
+**Amethyst Buds & Clusters.** Now craftable using amethyst.
+
+**Brewing Stand.** Now only craftable using cobblestone.
 
 **Calcite.** Now craftable using stone and bone meal.
 
@@ -51,47 +57,47 @@ This datapack offers a custom set of `/trigger` commands to ease the process of 
 
 **Crimson Nylium.** Now craftable using netherrack and crimson fungus.
 
-**Netherite Upgrade Template.** This crafting recipe is now disabled.
-
-**Warped Nylium.** Now craftable using netherrack and warped fungus.
-
 **Diamond Horse Armor.** Now smithable using leather horse armor and 2 diamonds.
+
+**Furnace.** Now only craftable using cobblestone.
 
 **Golden Horse Armor.** Now smithable using leather horse armor and 2 gold ingots.
 
 **Iron Horse Armor.** Now smithable using leather horse armor and 2 iron ingots.
 
-**Amethyst.** Now craftable using quartz and purple dye.
+**Netherite Upgrade Template.** This crafting recipe is now disabled.
 
-**Amethyst Buds & Clusters.** Now craftable using amethyst.
+**Stone Axe.** Now only craftable using cobblestone.
+
+**Stone Hoe.** Now only craftable using cobblestone.
+
+**Stone Pickaxe.** Now only craftable using cobblestone.
+
+**Stone Shovel.** Now only craftable using cobblestone.
+
+**Stone Sword.** Now only craftable using cobblestone.
+
+**Warped Nylium.** Now craftable using netherrack and warped fungus.
 
 **Enchanted Book (Swift Sneak I-III).** Now craftable using books, feathers, and echo shards.
 
-**Enchanted Book (Wind Charge I-III).** Now craftable using books, gunpowder, and wind charges.
-
-### Tags
-
-**minecraft:stone_crafting_materials.** Now all references replaced with *sbp:stone_crafting_materials* to enforce use of cobblestone for crafting.
-
-**minecraft:stone_tool_materials.** Now all references replaced with *sbp:stone_tool_materials* to enforce use of cobblestone for crafting.
-
 ### Trades
-
-**Wandering Trader.** Now offers an additional trade, selling sweet berries, glow berries, dead bushes, or enchanted golden apples. Also replaces podzol trades with mycelium trades.
-
-**Mason.** Now offers a random pottery sherd as an expert trade.
 
 **Armorer.** Now replicate the trades from the experimental villager trade rebalance, and offer a trim based on biome/dimension where the armorer becomes a master: Flow (any windswept biome), Bolt (any winddswept biome), Shaper (any taiga biome), Host (any taiga biome), Wayfinder (any non-windswept savanna biome), Sentry (any plains biome), Rib (in the nether), Snout (in the nether), Vex (any non-windswept forest biome), Spire (in the end), Eye (in the end), Silence (deep dark), or Ward (deep dark).
 
+**Mason.** Now offers a random pottery sherd as an expert trade.
+
+**Wandering Trader.** Now offers an additional trade, selling sweet berries, glow berries, dead bushes, or enchanted golden apples. Also replaces podzol trades with mycelium trades.
+
 ### Mob Spawning
-
-**Breeze.** Now occasionally spawn in any windswept biome.
-
-**Piglin Brute.** Now spawn in bastions.
 
 **Allay.** Now created when a goat horn is used near a vex.
 
-**Elder Guardians.** Now created when a guardian is struck by lightning.
+**Breeze.** Now occasionally spawn in any windswept biome.
+
+**Elder Guardian.** Now created when a guardian is struck by lightning.
+
+**Piglin Brute.** Now spawn in bastions.
 
 ### Mob Behavior
 

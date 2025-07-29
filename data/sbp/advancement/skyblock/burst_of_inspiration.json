@@ -1,5 +1,5 @@
 {
-  "parent": "sbp:skyblock/mind_blowing",
+  "parent": "sbp:skyblock/fishful_thinking",
 	"display": {
     "icon": {
       "id": "minecraft:enchanted_book",
@@ -8,7 +8,7 @@
       }
     },
     "title": "Burst of Inspiration",
-    "description": "Craft a book enchanted with Wind Burst"
+    "description": "Fish up a book enchanted with Wind Burst from a windswept biome"
   },
   "criteria": {
     "wind_burst_1": {

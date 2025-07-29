@@ -54,16 +54,40 @@
           ]
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:book",
-          "functions": [
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": 30,
-              "options": "#minecraft:on_random_loot"
-            }
-          ]
-        },
+					"type": "minecraft:alternatives",
+					"children": [
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:book",
+							"functions": [
+								{
+									"function": "minecraft:enchant_with_levels",
+									"levels": 30.0,
+									"options": "#sbp:on_random_loot_windswept"
+								}
+							],
+							"conditions": [
+								{
+									"condition": "minecraft:location_check",
+									"predicate": {
+										"biomes": "#sbp:is_windswept"
+									}
+								}
+							]
+						},
+						{
+							"type": "minecraft:item",
+							"name": "minecraft:book",
+							"functions": [
+								{
+									"function": "minecraft:enchant_with_levels",
+									"levels": 30.0,
+									"options": "#minecraft:on_random_loot"
+								}
+							]
+						}
+					]
+				},
         {
           "type": "minecraft:item",
           "name": "minecraft:nautilus_shell"
