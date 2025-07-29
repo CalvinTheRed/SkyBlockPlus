@@ -23,7 +23,7 @@ This datapack offers a custom set of `/trigger` commands to ease the process of 
 
 **Husk.** Now drops sand instead of rotten flesh (or red sand if killed in the nether).
 
-**Iron Golem.** Now drops raw iron ore instead of iron ingots.**
+**Iron Golem.** Now drops raw iron ore instead of iron ingots.
 
 **Phantom.** Now drops an elytra if killed by a player in the end.
 
