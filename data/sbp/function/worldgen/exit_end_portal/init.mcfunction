@@ -1,0 +1,2 @@
+execute unless data storage sbp:worldgen {end_exit_portal_prepped:1} in minecraft:the_end run function sbp:worldgen/exit_end_portal/prep_end_exit_portal
+data merge storage sbp:worldgen {end_exit_portal_lit:-1}
