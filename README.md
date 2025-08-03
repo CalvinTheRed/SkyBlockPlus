@@ -27,11 +27,11 @@ This datapack offers a custom set of `/trigger` commands to ease the process of 
 
 **Phantom.** Now drops an elytra if killed by a player in the end.
 
-**Silverfish.** Now drops cobbled deepslate on death, or tuff if killed by an explosion, or netherrack if killed with fire, or end stone if killed while levitating (listed in increasing priority of drop type).
+**Silverfish.** Now drops cobbled deepslate on death, or tuff if killed by an explosion, or netherrack if killed with fire (listed in increasing priority of drop type).
 
 **Villager Gift (Armorer).** Now has a chance to gift a bucket of lava to a player with the Hero of the Village effect.
 
-**Villager Gift (Librarian).** Changed weight of book gift to 4. Now has a chance to gift an enchanted book containing Swift Sneak (level randomly chosen from 1 to 3) to a player with the Hero of the Village effect if the librarian is in a deep dark biome.
+**Villager Gift (Librarian).** Now has a chance to gift an enchanted book containing Swift Sneak (level randomly chosen from 1 to 3) to a player with the Hero of the Village effect if the librarian is in a deep dark biome.
 
 **Wither.** Now drops a netherite upgrade template.
 
@@ -52,8 +52,6 @@ This datapack offers a custom set of `/trigger` commands to ease the process of 
 **Amethyst Buds & Clusters.** Now craftable using amethyst.
 
 **Brewing Stand.** Now only craftable using cobblestone.
-
-**Calcite.** Now craftable using stone and bone meal.
 
 **Cobweb.** Now craftable using string and slimeballs.
 
@@ -85,6 +83,10 @@ This datapack offers a custom set of `/trigger` commands to ease the process of 
 
 **Enchanted Book (Swift Sneak I-III).** Now craftable using books, feathers, and echo shards.
 
+### Blasting
+
+**Calcite.** Now blastable from nautilus shells.
+
 ### Trades
 
 **Armorer.** Now replicate the trades from the experimental villager trade rebalance, and offer a trim based on biome/dimension where the armorer becomes a master: Flow (any windswept biome), Bolt (any winddswept biome), Shaper (any taiga biome), Host (any taiga biome), Wayfinder (any non-windswept savanna biome), Sentry (any plains biome), Rib (in the nether), Snout (in the nether), Vex (any non-windswept forest biome), Spire (in the end), Eye (in the end), Silence (deep dark), or Ward (deep dark).
@@ -103,10 +105,14 @@ This datapack offers a custom set of `/trigger` commands to ease the process of 
 
 **Piglin Brute.** Now spawn in bastions.
 
+**Shulker.** Now spawns one shulker atop the end exit portal each time a player kills the ender dragon.
+
 ### Mob Behavior
+
+**Ender Dragon.** The dragon's breath will now slowly convert stone-like blocks beneath it to end stone.
 
 **Witch.** Witches now have a 20% chance to replace any thrown potion with a splash potion of infestation.
 
 ### Structures
 
-The only structures which generate in this datapack are ancient cities, bastions, end cities, nether fortresses, ocean monuments, pillager outposts, end strongholds, and swamp huts.
+The only structures which generate in this datapack are ancient cities, bastions, nether fortresses, ocean monuments, pillager outposts, end strongholds, and swamp huts.

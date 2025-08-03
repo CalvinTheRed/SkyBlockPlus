@@ -84,21 +84,6 @@
               ]
             },
             {
-              "function": "minecraft:set_item",
-              "item": "minecraft:end_stone",
-              "conditions": [
-                {
-                  "condition": "minecraft:entity_properties",
-                  "entity": "this",
-                  "predicate": {
-                    "effects": {
-                      "minecraft:levitation": {}
-                    }
-                  }
-                }
-              ]
-            },
-            {
               "function": "minecraft:enchanted_count_increase",
               "enchantment": "minecraft:looting",
               "count": {
