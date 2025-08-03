@@ -3,10 +3,10 @@
     "icon": {
       "id": "minecraft:chorus_flower"
     },
-    "title": "That's No Flower",
+    "title": "Freaky Flower",
     "description": "Sniff up a chorus flower from some end stone in the End"
   },
-  "parent": "sbp:end/theyre_flying_now",
+  "parent": "sbp:end/corrupting_breath",
   "criteria": {
     "minecraft:chorus_flower": {
       "trigger": "minecraft:inventory_changed",

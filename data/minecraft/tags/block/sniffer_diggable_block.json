@@ -9,6 +9,7 @@
 		"minecraft:coarse_dirt",
 		"minecraft:rooted_dirt",
 		"minecraft:moss_block",
-		"minecraft:pale_moss_block"
+		"minecraft:pale_moss_block",
+		"minecraft:end_stone"
   ]
 }

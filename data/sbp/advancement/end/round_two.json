@@ -1,5 +1,5 @@
 {
-  "parent": "sbp:end/is_this_edible",
+  "parent": "sbp:end/thats_no_endermite",
   "criteria": {
     "summoned_dragon": {
       "conditions": {

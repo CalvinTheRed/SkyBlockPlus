@@ -5,10 +5,5 @@
     "separation": 1,
     "spacing": 2
   },
-  "structures": [
-    {
-      "structure": "minecraft:nether_fossil",
-      "weight": 1
-    }
-  ]
+  "structures": []
 }

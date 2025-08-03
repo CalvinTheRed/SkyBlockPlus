@@ -1,0 +1,2 @@
+execute as @e[type=minecraft:area_effect_cloud,tag=cobblestone_to_end_stone_converter,tag=delay] at @s run function sbp:end_stone_conversion/finish
+execute as @e[type=minecraft:area_effect_cloud] if data entity @s {custom_particle:{type:"minecraft:dragon_breath"}} at @s positioned ~ ~-1 ~ run function sbp:end_stone_conversion/attempt

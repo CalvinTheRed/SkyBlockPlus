@@ -9,7 +9,7 @@
       "sound": "minecraft:ambient.cave",
       "tick_delay": 6000
     },
-		"music_volume": 1.0,
+    "music_volume": 1.0,
     "sky_color": 0,
     "water_color": 4159204,
     "water_fog_color": 329011
@@ -28,8 +28,7 @@
     [],
     [],
     [
-      "minecraft:end_platform",
-			"minecraft:purge_end_stone"
+      "minecraft:end_platform"
     ]
   ],
   "has_precipitation": false,

@@ -1,0 +1,20 @@
+{
+  "parent": "sbp:end/root",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "description": "Slay the ender dragon and discover a shulker",
+    "frame": "goal",
+    "icon": {
+      "id": "minecraft:shulker_shell"
+    },
+    "title": "That's No Endermite"
+  },
+  "requirements": [
+    ["impossible"]
+  ],
+  "sends_telemetry_event": true
+}

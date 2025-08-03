@@ -1,0 +1,18 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:dragon_breath"
+    },
+    "title": "Corrupting Breath",
+    "description": "Lure the dragon to breathe on some stony blocks"
+  },
+  "parent": "sbp:end/root",
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    ["impossible"]
+  ]
+}
