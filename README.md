@@ -101,6 +101,10 @@ This datapack offers a custom set of `/trigger` commands to ease the process of 
 
 **Calcite.** Now blastable from nautilus shells.
 
+### Smoking
+
+**Dead Bush.** Now smokable from any sapling.
+
 ### Trades
 
 **Armorer.** Now replicate the trades from the experimental villager trade rebalance, and offer a trim based on biome/dimension where the armorer becomes a master:
@@ -125,7 +129,7 @@ This datapack offers a custom set of `/trigger` commands to ease the process of 
 
 **Mason.** Now offers a random pottery sherd as an expert trade.
 
-**Wandering Trader.** Now offers an additional trade, selling sweet berries, glow berries, dead bushes, or enchanted golden apples. Also replaces podzol trades with mycelium trades.
+**Wandering Trader.** Now offers an additional trade, selling sweet berries, glow berries, or an enchanted golden apple. Also replaces podzol trades with mycelium trades.
 
 ### Mob Spawning
 
