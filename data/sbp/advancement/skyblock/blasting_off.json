@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:calcite"
+    },
+    "title": "Blasting Off",
+    "description": "Blast some nautilus shells and convert them into calcite"
+  },
+  "parent": "sbp:skyblock/rock_and_roll",
+  "criteria": {
+    "minecraft:calcite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:calcite"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["minecraft:calcite"]
+  ]
+}
