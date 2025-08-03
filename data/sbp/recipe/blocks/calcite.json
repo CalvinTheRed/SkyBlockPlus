@@ -1,19 +1,11 @@
 {
-  "type": "minecraft:crafting_shapeless",
+  "type": "minecraft:blasting",
   "category": "blocks",
-  "ingredients": [
-		"minecraft:stone",
-		"minecraft:bone_meal",
-		"minecraft:bone_meal",
-		"minecraft:bone_meal",
-		"minecraft:bone_meal",
-		"minecraft:bone_meal",
-		"minecraft:bone_meal",
-		"minecraft:bone_meal",
-		"minecraft:bone_meal"
-  ],
+  "cookingtime": 100,
+  "experience": 0.7,
+  "group": "calcite",
+  "ingredient": "minecraft:nautilus_shell",
   "result": {
-    "id": "minecraft:calcite",
-    "count": 1
+    "id": "minecraft:calcite"
   }
 }

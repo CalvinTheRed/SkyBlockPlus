@@ -1,11 +1,11 @@
 {
   "parent": "sbp:recipes/root",
   "criteria": {
-    "has_stone": {
+    "has_nautilus_shell": {
       "conditions": {
         "items": [
           {
-            "items": "minecraft:stone"
+            "items": "minecraft:nautilus_shell"
           }
         ]
       },
@@ -21,7 +21,7 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_stone"
+      "has_nautilus_shell"
     ]
   ],
   "rewards": {
