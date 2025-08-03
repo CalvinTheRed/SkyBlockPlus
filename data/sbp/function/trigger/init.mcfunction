@@ -65,11 +65,9 @@ scoreboard objectives add findbiome_wooded_badlands trigger
 
 scoreboard objectives add findstructure_ancient_city trigger
 scoreboard objectives add findstructure_bastion_remnant trigger
-scoreboard objectives add findstructure_end_city trigger
 scoreboard objectives add findstructure_fortress trigger
 scoreboard objectives add findstructure_monument trigger
 scoreboard objectives add findstructure_pillager_outpost trigger
-scoreboard objectives add findstructure_stronghold trigger
 scoreboard objectives add findstructure_swamp_hut trigger
 
 advancement revoke @a only sbp:trigger/display_trigger_info

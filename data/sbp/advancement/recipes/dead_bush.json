@@ -1,0 +1,32 @@
+{
+  "parent": "sbp:recipes/root",
+  "criteria": {
+    "has_smoker": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:smoker"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "sbp:misc/dead_bush"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_smoker"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "sbp:misc/dead_bush"
+    ]
+  }
+}

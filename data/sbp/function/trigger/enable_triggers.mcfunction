@@ -65,9 +65,7 @@ scoreboard players enable @a findbiome_wooded_badlands
 
 scoreboard players enable @a findstructure_ancient_city
 scoreboard players enable @a findstructure_bastion_remnant
-scoreboard players enable @a findstructure_end_city
 scoreboard players enable @a findstructure_fortress
 scoreboard players enable @a findstructure_monument
 scoreboard players enable @a findstructure_pillager_outpost
-scoreboard players enable @a findstructure_stronghold
 scoreboard players enable @a findstructure_swamp_hut

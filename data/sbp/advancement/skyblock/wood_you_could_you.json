@@ -6,7 +6,7 @@
     "title": "Wood You, Could You?",
     "description": "Collect all wood types"
   },
-  "parent": "sbp:skyblock/green_deal",
+  "parent": "sbp:skyblock/its_oakay_now",
   "criteria": {
     "minecraft:oak_log": {
       "trigger": "minecraft:inventory_changed",

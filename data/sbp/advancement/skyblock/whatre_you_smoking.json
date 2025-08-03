@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:dead_bush"
+    },
+    "title": "What're You Smoking?",
+    "description": "Smoke a sapling to get a dead bush"
+  },
+  "parent": "sbp:skyblock/rock_and_roll",
+  "criteria": {
+    "minecraft:dead_bush": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:dead_bush"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["minecraft:dead_bush"]
+  ]
+}
