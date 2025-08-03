@@ -43,7 +43,21 @@ This datapack offers a custom set of `/trigger` commands to ease the process of 
 
 **Piglin Bartering.** Piglins no longer give dried ghasts when bartering. Piglins now have a chance to give soul soil when bartering.
 
-**Sniffer Digging.** Sniffers now dig up wheat seeds or any flowers that would normally generate naturally in the biome where it is digging. It also has a chance of digging up special items under specific conditions: gold nugget (when digging in soul soil, netherrack, crimson nylium, or warped nylium in the nether), quartz (when digging in netherrack, crimson nylium, or warped nylium in the nether), ancient debris (when digging in netherrack, crimson nylium, or warped nylium in the nether), crimson fungus (when digging in soul soil or crimson nylium in a crimson forest biome), torchflower seeds (when digging in crimson nylium in a crimson forest biome), warped fungus (when digging in soul soil or warped nylium in a warped forest biome), pitcher pod (when digging in warped nylium in a warped forest biome), bone (when digging in soul soil in a soul sand valley biome), ghast tear (when digging in soul soil in a soul sand valley biome), magma cream (when digging in netherrack in a basalt deltas biome), resin clump (when digging in pale moss in a pale garden biome), chorus flower (when digging in end stone in the end), chorus fruit (when digging  in end stone in the end), or popped chorus fruit (when digging in end stone in the end).
+**Sniffer Digging.** Sniffers now dig up wheat seeds or any flowers that would normally generate naturally in the biome where it is digging. It also has a chance of digging up special items under specific conditions:
+* gold nugget (when digging in soul soil, netherrack, crimson nylium, or warped nylium in the nether)
+* quartz (when digging in netherrack, crimson nylium, or warped nylium in the nether)
+* ancient debris (when digging in netherrack, crimson nylium, or warped nylium in the nether)
+* crimson fungus (when digging in soul soil or crimson nylium in a crimson forest biome)
+* torchflower seeds (when digging in crimson nylium in a crimson forest biome)
+* warped fungus (when digging in soul soil or warped nylium in a warped forest biome)
+* pitcher pod (when digging in warped nylium in a warped forest biome)
+* bone (when digging in soul soil in a soul sand valley biome)
+* ghast tear (when digging in soul soil in a soul sand valley biome)
+* magma cream (when digging in netherrack in a basalt deltas biome)
+* resin clump (when digging in pale moss in a pale garden biome)
+* chorus flower (when digging in end stone in the end)
+* chorus fruit (when digging  in end stone in the end)
+* popped chorus fruit (when digging in end stone in the end)
 
 ### Crafting
 
@@ -89,7 +103,25 @@ This datapack offers a custom set of `/trigger` commands to ease the process of 
 
 ### Trades
 
-**Armorer.** Now replicate the trades from the experimental villager trade rebalance, and offer a trim based on biome/dimension where the armorer becomes a master: Flow (any windswept biome), Bolt (any winddswept biome), Shaper (any taiga biome), Host (any taiga biome), Wayfinder (any non-windswept savanna biome), Sentry (any plains biome), Rib (in the nether), Snout (in the nether), Vex (any non-windswept forest biome), Spire (in the end), Eye (in the end), Silence (deep dark), or Ward (deep dark).
+**Armorer.** Now replicate the trades from the experimental villager trade rebalance, and offer a trim based on biome/dimension where the armorer becomes a master:
+* Sentry (plains biomes / default)
+* Vex (non-windswept forest biomes)
+* Wild (jungle biomes)
+* Coast (snowy biomes)
+* Dune (desert biomes)
+* Wayfinder (non-windswept savanna biomes)
+* Raiser (swamp biomes)
+* Shaper (taiga biomes)
+* Host (taiga biomes)
+* Ward (deep dark biome)
+* Silence (deep dark biome)
+* Tide (ocean biomes)
+* Snout (nether dimension)
+* Rib (nether dimension)
+* Eye (end dimension)
+* Spire (end dimension)
+* Flow (windswept biomes)
+* Bolt (windswept biomes)
 
 **Mason.** Now offers a random pottery sherd as an expert trade.
 
