@@ -36,7 +36,20 @@
     "water_color": 4159204,
     "water_fog_color": 329011
   },
-  "features": [],
+  "features": [
+		[],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[],
+		[
+			"minecraft:purge_nether_fortress"
+		]
+	],
   "has_precipitation": false,
   "spawn_costs": {
     "minecraft:enderman": {
