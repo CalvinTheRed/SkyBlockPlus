@@ -73,13 +73,9 @@ This datapack offers a custom set of `/trigger` commands to ease the process of 
 
 **Crimson Nylium.** Now craftable using netherrack and crimson fungus.
 
-**Diamond Horse Armor.** Now smithable using leather horse armor and 2 diamonds.
+**Eye of Ender.** Crafting now requires ender pearls, blaze powder, echo shards, prismarine shards, and resin clumps.
 
 **Furnace.** Now only craftable using cobblestone.
-
-**Golden Horse Armor.** Now smithable using leather horse armor and 2 gold ingots.
-
-**Iron Horse Armor.** Now smithable using leather horse armor and 2 iron ingots.
 
 **Netherite Upgrade Template.** This crafting recipe is now disabled.
 
@@ -104,6 +100,14 @@ This datapack offers a custom set of `/trigger` commands to ease the process of 
 ### Smoking
 
 **Dead Bush.** Now smokable from any sapling.
+
+### Smithing
+
+**Diamond Horse Armor.** Now smithable using leather horse armor and 2 diamonds.
+
+**Golden Horse Armor.** Now smithable using leather horse armor and 2 gold ingots.
+
+**Iron Horse Armor.** Now smithable using leather horse armor and 2 iron ingots.
 
 ### Trades
 
