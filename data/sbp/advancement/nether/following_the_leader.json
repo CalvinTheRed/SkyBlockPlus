@@ -5,7 +5,7 @@
     },
 		"frame": "goal",
     "title": "Following The Leader",
-    "description": "Chase an ender eye towards an end portal"
+    "description": "Chase an ender eye towards an end portal... you'll need some extra materials"
   },
   "parent": "sbp:nether/fire_fighter",
   "criteria": {

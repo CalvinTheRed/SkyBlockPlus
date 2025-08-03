@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "ender_eye",
+  "pattern": [
+    " 1 ",
+    "234",
+    " 5 "
+  ],
+  "key": {
+    "1": [
+      "minecraft:resin_clump"
+    ],
+    "2": [
+      "minecraft:echo_shard"
+    ],
+    "3": [
+      "minecraft:ender_pearl"
+    ],
+    "4": [
+      "minecraft:prismarine_shard"
+    ],
+    "5": [
+      "minecraft:blaze_powder"
+    ]
+  },
+  "result": {
+    "id": "minecraft:ender_eye"
+  }
+}
