@@ -40,9 +40,7 @@
 		[],
 		[],
 		[],
-		[
-			"minecraft:purge_nether_fortress"
-		]
+		["minecraft:purge_nether_fortress"]
 	],
   "has_precipitation": false,
   "spawn_costs": {},

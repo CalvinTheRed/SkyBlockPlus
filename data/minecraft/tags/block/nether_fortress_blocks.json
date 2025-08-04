@@ -6,6 +6,7 @@
 		"minecraft:soul_sand",
 		"minecraft:nether_wart",
 		"minecraft:lava",
-		"minecraft:spawner"
+		"minecraft:spawner",
+		"minecraft:chest"
   ]
 }
