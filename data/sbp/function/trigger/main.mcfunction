@@ -77,5 +77,4 @@ execute as @a[scores={findstructure_end_city=1..}] at @s run function sbp:trigge
 execute as @a[scores={findstructure_fortress=1..}] at @s run function sbp:trigger/structure/fortress
 execute as @a[scores={findstructure_monument=1..}] at @s run function sbp:trigger/structure/monument
 execute as @a[scores={findstructure_pillager_outpost=1..}] at @s run function sbp:trigger/structure/pillager_outpost
-execute as @a[scores={findstructure_stronghold=1..}] at @s run function sbp:trigger/structure/stronghold
 execute as @a[scores={findstructure_swamp_hut=1..}] at @s run function sbp:trigger/structure/swamp_hut
