@@ -91,8 +91,6 @@ This datapack offers a custom set of `/trigger` commands to ease the process of 
 
 **Warped Nylium.** Now craftable using netherrack and warped fungus.
 
-**Enchanted Book (Swift Sneak I-III).** Now craftable using books, feathers, and echo shards.
-
 ### Blasting
 
 **Calcite.** Now blastable from nautilus shells.
