@@ -131,7 +131,7 @@ This datapack offers a custom set of `/trigger` commands to ease the process of 
 
 **Mason.** Now offers a random pottery sherd as an expert trade.
 
-**Wandering Trader.** Now offers an additional trade, selling sweet berries, glow berries, or an enchanted golden apple. Also replaces podzol trades with mycelium trades.
+**Wandering Trader.** Now offers an additional trade, selling sweet berries, glow berries, or an enchanted golden apple. Also replaces podzol trades with mycelium trades, and wheat seeds trades with cocoa beans trades.
 
 ### Mob Spawning
 
