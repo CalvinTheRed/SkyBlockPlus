@@ -1,1 +1,1 @@
-execute as @e[type=minecraft:splash_potion,tag=!witch_potion_conversion_checked] at @s run function sbp:witch_potion_conversion/check_thrower
+execute as @e[type=minecraft:splash_potion,tag=!witch_potion_conversion_checked] unless data entity @s {Item:{components:{"minecraft:potion_contents":{potion:"minecraft:healing"}}}} unless data entity @s {Item:{components:{"minecraft:potion_contents":{potion:"minecraft:regeneration"}}}} at @s run function sbp:witch_potion_conversion/check_thrower
