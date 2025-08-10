@@ -3,6 +3,7 @@
     "icon": {
       "id": "minecraft:echo_shard"
     },
+		"frame": "goal",
     "title": "Resonance",
     "description": "Get an echo shard when a warden kills a dolphin or a bat"
   },

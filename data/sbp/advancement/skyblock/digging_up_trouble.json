@@ -3,6 +3,7 @@
     "icon": {
       "id": "minecraft:resin_clump"
     },
+		"frame": "goal",
     "title": "Digging Up Trouble",
     "description": "Dig up some resin from pale moss in a pale garden"
   },

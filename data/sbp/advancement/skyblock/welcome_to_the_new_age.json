@@ -3,6 +3,7 @@
     "icon": {
       "id": "minecraft:sniffer_egg"
     },
+		"frame": "goal",
     "title": "Welcome To The New Age",
     "description": "Fish up a sniffer egg from a warm ocean"
   },

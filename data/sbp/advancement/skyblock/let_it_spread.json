@@ -3,6 +3,7 @@
     "icon": {
       "id": "minecraft:sculk_catalyst"
     },
+		"frame": "goal",
     "title": "Let It Spread",
     "description": "Slay a warden and collect a sculk catalyst"
   },
