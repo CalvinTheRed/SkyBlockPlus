@@ -1,0 +1,11 @@
+{
+  "feature": "minecraft:purge_nether_fortress_final",
+  "placement": [
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "absolute": 16
+      }
+    }
+  ]
+}
