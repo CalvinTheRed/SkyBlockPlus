@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "blocks",
+  "group": "end_stone",
+  "ingredients": [
+    "minecraft:dragon_breath",
+    "#sbp:end_stone_convertable",
+		"#sbp:end_stone_convertable",
+		"#sbp:end_stone_convertable",
+		"#sbp:end_stone_convertable",
+		"#sbp:end_stone_convertable",
+		"#sbp:end_stone_convertable",
+		"#sbp:end_stone_convertable",
+		"#sbp:end_stone_convertable"
+  ],
+  "result": {
+    "id": "minecraft:end_stone",
+		"count": 8
+  }
+}
