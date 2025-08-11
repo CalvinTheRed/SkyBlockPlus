@@ -11,45 +11,17 @@
     "description": "Fish up a book enchanted with Wind Burst from a windswept biome"
   },
   "criteria": {
-    "wind_burst_1": {
+    "stores_wind_burst": {
       "conditions": {
         "items": [
           {
             "items": "minecraft:enchanted_book",
-            "components": {
-              "minecraft:stored_enchantments": {
-                "minecraft:wind_burst": 1
-              }
-            }
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
-		"wind_burst_2": {
-      "conditions": {
-        "items": [
-          {
-            "items": "minecraft:enchanted_book",
-            "components": {
-              "minecraft:stored_enchantments": {
-                "minecraft:wind_burst": 2
-              }
-            }
-          }
-        ]
-      },
-      "trigger": "minecraft:inventory_changed"
-    },
-		"wind_burst_3": {
-      "conditions": {
-        "items": [
-          {
-            "items": "minecraft:enchanted_book",
-            "components": {
-              "minecraft:stored_enchantments": {
-                "minecraft:wind_burst": 3
-              }
+            "predicates": {
+              "minecraft:stored_enchantments": [
+                {
+                  "enchantments": "minecraft:wind_burst"
+                }
+              ]
             }
           }
         ]
@@ -59,9 +31,7 @@
   },
   "requirements": [
     [
-      "wind_burst_1",
-			"wind_burst_2",
-			"wind_burst_3"
+      "stores_wind_burst"
     ]
   ]
 }
