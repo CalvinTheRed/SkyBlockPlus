@@ -25,6 +25,10 @@
 			{
 				"namespace": "minecraft",
 				"path": "advancement/story/.*"
+			},
+			{
+				"namespace": "minecraft",
+				"path": "recipe/netherite_upgrade_smithing_template"
 			}
 		]
 	}
