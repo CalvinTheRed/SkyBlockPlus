@@ -4,9 +4,9 @@
       "id": "minecraft:amethyst_shard"
     },
     "title": "Crystal Mess",
-    "description": "Craft amethyst"
+    "description": "Slay an allay to get some amethyst"
   },
-  "parent": "sbp:nether/exotic_goods",
+  "parent": "sbp:skyblock/to_arms",
   "criteria": {
     "minecraft:amethyst_shard": {
       "trigger": "minecraft:inventory_changed",

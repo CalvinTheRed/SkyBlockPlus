@@ -1,11 +1,11 @@
 {
   "parent": "sbp:recipes/root",
   "criteria": {
-    "minecraft:amethyst_shard": {
+    "has_amethyst_block": {
       "conditions": {
         "items": [
           {
-            "items": "minecraft:amethyst_shard"
+            "items": "minecraft:amethyst_block"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "sbp:misc/small_amethyst_bud"
+        "recipe": "sbp:blocks/budding_amethyst"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "minecraft:amethyst_shard"
+      "has_amethyst_block"
     ]
   ],
   "rewards": {
     "recipes": [
-      "sbp:misc/small_amethyst_bud"
+      "sbp:blocks/budding_amethyst"
     ]
   }
 }

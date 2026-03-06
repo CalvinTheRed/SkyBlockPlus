@@ -1,8 +1,15 @@
 {
-  "type": "minecraft:smithing_transform",
-  "template": "minecraft:iron_ingot",
-  "base": "minecraft:leather_horse_armor",
-  "addition": "minecraft:iron_ingot",
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "iron_horse_armor",
+  "pattern": [
+    "III",
+    "ILI"
+  ],
+  "key": {
+    "I": "minecraft:iron_ingot",
+		"L": "minecraft:leather_horse_armor"
+  },
   "result": {
     "id": "minecraft:iron_horse_armor",
     "count": 1

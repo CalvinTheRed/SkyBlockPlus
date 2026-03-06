@@ -11,6 +11,8 @@ This datapack offers a custom set of `/trigger` commands to ease the process of 
 
 **Nether Wart Block.** Now drops nether wart with the same distribution that a melon block drops melon, or a nether wart block if mined using a tool enchanted with Silk Touch.
 
+**Allay.** Now drops an amethyst shard on death.
+
 **Bat.** Now drops an echo shard if killed by a warden's sonic blast attack.
 
 **Breeze.** Now has a small chance of dropping a heavy core if killed by a player during a thunder storm. If this occurs, the weather will be cleared.
@@ -61,21 +63,27 @@ This datapack offers a custom set of `/trigger` commands to ease the process of 
 
 ### Crafting
 
-**Amethyst.** Now craftable using quartz and purple dye.
-
-**Amethyst Buds & Clusters.** Now craftable using amethyst.
+**Budding Amethyst.** Now craftable using amethyst blocks and an echo shard.
 
 **Brewing Stand.** Now only craftable using cobblestone.
 
 **Cobweb.** Now craftable using string and slimeballs.
 
+**Copper Horse Armor.** Now craftable using leather horse armor and copper ingots.
+
 **Coral blocks.** Coral blocks are now craftable from the corresponding corals (2x2) or fans (3x3).
 
 **Crimson Nylium.** Now craftable using netherrack and crimson fungus.
 
+**Diamond Horse Armor.** Now craftable using leather horse armor and diamonds.
+
 **Eye of Ender.** Crafting now requires ender pearls, blaze powder, echo shards, prismarine shards, and resin clumps.
 
 **Furnace.** Now only craftable using cobblestone.
+
+**Golden Horse Armor.** Now craftable using leather horse armor and gold ingots.
+
+**Iron Horse Armor.** Now craftable using leather horse armor and iron ingots.
 
 **Netherite Upgrade Template.** This crafting recipe is now disabled.
 

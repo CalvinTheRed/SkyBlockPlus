@@ -1,11 +1,11 @@
 {
   "parent": "sbp:recipes/root",
   "criteria": {
-    "has_quartz": {
+    "has_leather_horse_armor": {
       "conditions": {
         "items": [
           {
-            "items": "minecraft:quartz"
+            "items": "minecraft:leather_horse_armor"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "sbp:misc/amethyst"
+        "recipe": "sbp:equipment/copper_horse_armor"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_quartz"
+      "has_leather_horse_armor"
     ]
   ],
   "rewards": {
     "recipes": [
-      "sbp:misc/amethyst"
+      "sbp:equipment/copper_horse_armor"
     ]
   }
 }

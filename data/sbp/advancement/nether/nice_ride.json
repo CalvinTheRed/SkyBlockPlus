@@ -1,12 +1,12 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:diamond_horse_armor"
+      "id": "minecraft:netherite_horse_armor"
     },
     "title": "Nice Ride",
     "description": "Get all types of horse armor"
   },
-  "parent": "sbp:skyblock/ooh_shiny",
+  "parent": "sbp:nether/wither_did_that_come",
   "criteria": {
     "minecraft:leather_horse_armor": {
       "trigger": "minecraft:inventory_changed",
@@ -47,12 +47,34 @@
           }
         ]
       }
+    },
+		"minecraft:copper_horse_armor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_horse_armor"
+          }
+        ]
+      }
+    },
+		"minecraft:netherite_horse_armor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_horse_armor"
+          }
+        ]
+      }
     }
   },
   "requirements": [
 		["minecraft:leather_horse_armor"],
 		["minecraft:golden_horse_armor"],
 		["minecraft:iron_horse_armor"],
-		["minecraft:diamond_horse_armor"]
+		["minecraft:diamond_horse_armor"],
+		["minecraft:copper_horse_armor"],
+		["minecraft:netherite_horse_armor"]
   ]
 }
