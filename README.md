@@ -11,7 +11,7 @@ This datapack offers a custom set of `/trigger` commands to ease the process of 
 
 **Nether Wart Block.** Now drops nether wart with the same distribution that a melon block drops melon, or a nether wart block if mined using a tool enchanted with Silk Touch.
 
-**Allay.** Now drops an amethyst shard on death.
+**Allay.** Now drops an amethyst shard.
 
 **Bat.** Now drops an echo shard if killed by a warden's sonic blast attack.
 
