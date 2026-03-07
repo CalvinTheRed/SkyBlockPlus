@@ -9,6 +9,8 @@ This datapack offers a custom set of `/trigger` commands to ease the process of 
 
 ### Loot Tables
 
+**Budding Amethyst.** Now drops itself when mined using a tool enchanted with Silk Touch.
+
 **Nether Wart Block.** Now drops nether wart with the same distribution that a melon block drops melon, or a nether wart block if mined using a tool enchanted with Silk Touch.
 
 **Allay.** Now drops an amethyst shard.
