@@ -8,7 +8,7 @@
   ],
   "key": {
     "G": "minecraft:gold_ingot",
-		"L": "minecraft:leather_horse_armor"
+    "L": "minecraft:leather_horse_armor"
   },
   "result": {
     "id": "minecraft:golden_horse_armor",

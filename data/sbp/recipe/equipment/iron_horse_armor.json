@@ -8,7 +8,7 @@
   ],
   "key": {
     "I": "minecraft:iron_ingot",
-		"L": "minecraft:leather_horse_armor"
+    "L": "minecraft:leather_horse_armor"
   },
   "result": {
     "id": "minecraft:iron_horse_armor",
