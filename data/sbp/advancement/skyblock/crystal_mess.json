@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:amethyst_shard"
+    },
+    "title": "Crystal Mess",
+    "description": "Slay an allay to get some amethyst"
+  },
+  "parent": "sbp:skyblock/to_arms",
+  "criteria": {
+    "minecraft:amethyst_shard": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:amethyst_shard"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["minecraft:amethyst_shard"]
+  ]
+}

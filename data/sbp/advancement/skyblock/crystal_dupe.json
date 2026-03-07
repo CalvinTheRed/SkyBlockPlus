@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:budding_amethyst"
+    },
+    "title": "Crystal Dupe",
+    "description": "Craft budding amethyst using an echo shard (can be mined using silk touch)"
+  },
+  "parent": "sbp:skyblock/crystal_mess",
+  "criteria": {
+    "minecraft:budding_amethyst": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:budding_amethyst"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["minecraft:budding_amethyst"]
+  ]
+}

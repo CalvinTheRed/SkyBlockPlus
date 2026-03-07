@@ -1,0 +1,36 @@
+{
+  "parent": "sbp:nether/wither_did_that_come",
+  "criteria": {
+    "netherite_armor": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_helmet"
+          },
+          {
+            "items": "minecraft:netherite_chestplate"
+          },
+          {
+            "items": "minecraft:netherite_leggings"
+          },
+          {
+            "items": "minecraft:netherite_boots"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": "Get a full suit of netherite armor",
+    "frame": "challenge",
+    "icon": {
+      "id": "minecraft:netherite_chestplate"
+    },
+    "title": "The Dark Knight"
+  },
+  "requirements": [
+    ["netherite_armor"]
+  ],
+  "sends_telemetry_event": true
+}

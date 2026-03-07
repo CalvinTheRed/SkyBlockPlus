@@ -5,7 +5,7 @@
     },
 		"frame": "goal",
     "title": "Green Deal",
-    "description": "Get an emerald from a fox"
+    "description": "Get an emerald from a fox or wandering trader"
   },
   "parent": "sbp:skyblock/vanquisher",
   "criteria": {

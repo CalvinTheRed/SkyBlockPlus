@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "AEA",
+    "AAA"
+  ],
+  "key": {
+    "A": "minecraft:amethyst_block",
+    "E": "minecraft:echo_shard"
+  },
+  "result": {
+    "id": "minecraft:budding_amethyst",
+    "count": 1
+  }
+}

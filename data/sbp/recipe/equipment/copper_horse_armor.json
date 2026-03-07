@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "group": "copper_horse_armor",
+  "pattern": [
+    "CCC",
+    "CLC"
+  ],
+  "key": {
+    "C": "minecraft:copper_ingot",
+    "L": "minecraft:leather_horse_armor"
+  },
+  "result": {
+    "id": "minecraft:copper_horse_armor",
+    "count": 1
+  }
+}

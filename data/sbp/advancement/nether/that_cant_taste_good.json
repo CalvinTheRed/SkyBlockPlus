@@ -1,5 +1,5 @@
 {
-  "parent": "sbp:nether/is_this_wart_it",
+  "parent": "sbp:nether/fire_fighter",
   "criteria": {
     "minecraft:brewed_potion": {
       "trigger": "minecraft:brewed_potion"
